@@ -1,0 +1,105 @@
+MACRO 16777223 " " INV_Misc_QuestionMark
+#show [combat] Intercept; Charge
+/cast [stance:1/2,combat] Berserker Stance; [stance:3,combat] Intercept; [stance:2/3,nocombat] Battle Stance; [stance:1,nocombat] !Charge
+/cast [equipped:Shields] Defensive Stance
+/script SetRaidTarget("target",8)
+END
+MACRO 16777234 " " INV_Misc_QuestionMark
+#showtooltip Charge
+/script SetRaidTarget("target",8)
+/cast Shoot
+/cast Charge
+/cast Hamstring
+ 
+END
+MACRO 16777224 " ALL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Heroic Strike
+/cast [mod:shift] Cleave
+/cast [mod:ctrl] Slam
+END
+MACRO 16777228 " ALL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Sweeping Strikes
+/cast [mod:shift] 
+/cast [mod:ctrl] Intimidating Shout
+END
+MACRO 16777227 " ALL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Bloodthirst
+/cast [mod:shift] Piercing Howl
+/cast [mod:ctrl] Challenging Shout
+END
+MACRO 16777221 " ARM" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Overpower
+/cast [mod:shift] Hamstring
+/cast [mod:ctrl] Hamstring
+END
+MACRO 16777226 " DUAL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Thunder Clap
+/cast [mod:shift] Rend
+/cast [mod:ctrl] Sunder Armor
+END
+MACRO 16777231 "ALL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Demoralizing Shout
+/cast [mod:shift] Bloodrage
+/cast [mod:ctrl] Battle Shout
+END
+MACRO 16777233 "BERS" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Pummel
+/cast [mod:shift] Intercept
+/cast [mod:ctrl] Berserker Rage
+END
+MACRO 16777232 "BERS" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Whirlwind
+/cast [mod:shift] Sweeping Strikes
+/cast [mod:ctrl] Cleave
+END
+MACRO 16777218 "Buff" Ability_Creature_Cursed_02
+#showtooltip
+/cast Bloodrage
+/cast Battle Shout
+END
+MACRO 16777229 "DEF" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Revenge
+/cast [mod:shift] Taunt
+/cast [mod:ctrl] Disarm
+END
+MACRO 16777230 "DEF" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Shield Block
+/cast [mod:shift] Shield Bash
+/cast [mod:ctrl] Shield Wall
+END
+MACRO 16777222 "DUAL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Execute
+/cast [mod:shift] Retaliation
+/cast [mod:ctrl] Retaliation
+END
+MACRO 16777219 "Stance" INV_Misc_QuestionMark
+#showtooltip
+/cast [modifier:shift,nostance:3] Berserker Stance; [stance:1] Defensive Stance; Battle Stance
+END
+MACRO 16777220 "Unfear" INV_Misc_QuestionMark
+#show Berserker Rage
+/cast [stance:1/2]Berserker Stance;Berserker Rage
+/cast [stance:3]Defensive Stance
+END

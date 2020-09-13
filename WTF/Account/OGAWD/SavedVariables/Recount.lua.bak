@@ -1,0 +1,29 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Ogawd - Karazhan"] = "Ogawd - Karazhan",
+	},
+	["profiles"] = {
+		["Ogawd - Karazhan"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -255.7035675048828,
+					["x"] = 616.2972412109375,
+					["w"] = 273.926025390625,
+					["h"] = 153.1851043701172,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 273.9259643554688,
+			["MainWindowHeight"] = 153.1851043701172,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

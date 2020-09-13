@@ -1,0 +1,13 @@
+
+AtlasLootOptions = nil
+AtlasLootFuDB = {
+	["profiles"] = {
+		["Default"] = {
+			["minimapPosition"] = 241.9578377793141,
+			["detachedTooltip"] = {
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+}
+AtlasLootDB = nil

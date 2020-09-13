@@ -1,0 +1,38 @@
+
+BeanCounterDB = {
+	["settings"] = {
+		["profile.Default"] = {
+			["configator.left"] = 358.5184936523438,
+			["util.beancounter.integrityCheckComplete"] = true,
+			["configator.top"] = 651.6666870117188,
+		},
+	},
+	["ItemIDArray"] = {
+	},
+	["Karazhan"] = {
+		["Ogawd"] = {
+			["vendorsell"] = {
+			},
+			["completedAuctions"] = {
+			},
+			["postedAuctions"] = {
+			},
+			["wealth"] = 348,
+			["vendorbuy"] = {
+			},
+			["failedAuctions"] = {
+			},
+			["version"] = 2.02,
+			["faction"] = "Horde",
+			["postedBids"] = {
+			},
+			["failedBids"] = {
+			},
+			["completedBids/Buyouts"] = {
+			},
+			["mailbox"] = {
+			},
+		},
+	},
+}
+BeanCounterAccountDB = nil

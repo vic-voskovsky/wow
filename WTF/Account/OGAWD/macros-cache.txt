@@ -1,0 +1,45 @@
+MACRO 19 "DEF " Ability_Warrior_ShieldMastery
+/startattack
+/equipslot 16 The Hand of Antu'sul
+/equipslot 17 Aegis of the Scarlet Commander
+/cast Shield Block
+END
+MACRO 21 "DPS" Ability_DualWield
+/equipslot 17 The Rockpounder
+/startattack
+END
+MACRO 30 "Mount" INV_Misc_QuestionMark
+#showtooltip 
+/use Horn of the Timber Wolf
+/dismount
+END
+MACRO 24 "Shield Block" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Shield Block
+/cast [mod:shift] Bloodrage
+/cast [mod:ctrl] Bloodrage
+END
+MACRO 28 "Slam" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Slam
+/cast [mod:shift] Shield Wall
+/cast [mod:ctrl] Shield Wall
+END
+MACRO 17 "Sunder Armor" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Sunder Armor
+/cast [mod:shift] Taunt
+/cast [mod:ctrl] Taunt
+END
+MACRO 25 "ThunderclapDEF" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Thunder Clap
+/cast [nomod] Bloodrage
+/cast [mod:shift] Demoralizing Shout
+/cast [mod:shift] Bloodrage
+/cast [mod:ctrl] Demoralizing Shout
+END

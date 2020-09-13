@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfNpc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Npc>
+    <Position X="-539.841" Y="-2672.23" Z="95.78777" Type="Flying" />
+    <Entry>3486</Entry>
+    <Name>Halija Whitestrider</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-443.692" Y="-2649.08" Z="95.7738" Type="Flying" />
+    <Entry>143982</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="3614.14" Y="-4403.95" Z="114.3858" Type="Flying" />
+    <Entry>10361</Entry>
+    <Name>Gruul Darkblade</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="6772.35" Y="-4679.5" Z="723.77" />
+    <Entry>9857</Entry>
+    <Name>Auctioneer Grizzlin</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="6742.89" Y="-4694.97" Z="721.3702" />
+    <Entry>11183</Entry>
+    <Name>Blixxrak</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="6733.39" Y="-4699.04" Z="721.3708" />
+    <Entry>11184</Entry>
+    <Name>Wixxrak</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+</ArrayOfNpc>

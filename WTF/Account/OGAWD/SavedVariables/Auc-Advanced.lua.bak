@@ -1,0 +1,24 @@
+
+AucAdvancedConfig = {
+	["profile.Default"] = {
+		["configator.left"] = 358.5184936523438,
+		["matcherlist"] = {
+			"Undercut", -- [1]
+			"BeanCount", -- [2]
+		},
+		["configator.top"] = 651.6666870117188,
+		["match.undercut.value"] = 1,
+	},
+}
+AucAdvancedData = {
+	["UtilSearchUI"] = {
+		["profile.Karazhan-Horde"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Karazhan-Horde"] = {
+		},
+	},
+	["Stats"] = {
+	},
+}

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<GrinderProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GrinderZones>
+    <GrinderZone>
+      <Name>Swamp of Sorrows</Name>
+      <Hotspots>true</Hotspots>
+      <RandomizingHotspots>false</RandomizingHotspots>
+      <MinLevel>0</MinLevel>
+      <MaxLevel>110</MaxLevel>
+      <MinTargetLevel>0</MinTargetLevel>
+      <MaxTargetLevel>110</MaxTargetLevel>
+      <TargetEntry>
+        <int>1084</int>
+        <int>767</int>
+        <int>858</int>
+      </TargetEntry>
+      <TargetFactions>
+        <unsignedInt>16</unsignedInt>
+        <unsignedInt>14</unsignedInt>
+        <unsignedInt>22</unsignedInt>
+      </TargetFactions>
+      <Vectors3>
+        <Vector3 X="-10459.34" Y="-3144.446" Z="20.17869" />
+        <Vector3 X="-10453.86" Y="-3125.794" Z="20.87889" />
+        <Vector3 X="-10427.39" Y="-3101.47" Z="22.83432" />
+        <Vector3 X="-10412.96" Y="-3091.707" Z="20.00067" />
+        <Vector3 X="-10404.3" Y="-3086.963" Z="17.3747" />
+        <Vector3 X="-10387.11" Y="-3077.541" Z="20.2259" />
+        <Vector3 X="-10379.52" Y="-3073.2" Z="21.81443" />
+        <Vector3 X="-10370.47" Y="-3082.734" Z="21.80396" />
+        <Vector3 X="-10356.5" Y="-3099.489" Z="21.78471" />
+        <Vector3 X="-10342.03" Y="-3126.188" Z="21.78167" />
+        <Vector3 X="-10318.18" Y="-3145.342" Z="22.3316" />
+        <Vector3 X="-10311.9" Y="-3147.285" Z="21.00518" />
+        <Vector3 X="-10309.8" Y="-3152.328" Z="21.89713" />
+        <Vector3 X="-10305.82" Y="-3177.066" Z="21.68735" />
+        <Vector3 X="-10298.79" Y="-3188.578" Z="21.87577" />
+        <Vector3 X="-10299.51" Y="-3201.648" Z="22.62116" />
+        <Vector3 X="-10311.24" Y="-3220.04" Z="22.9512" />
+        <Vector3 X="-10228.1" Y="-3190.155" Z="21.86202" />
+        <Vector3 X="-10224.26" Y="-3177.641" Z="22.30864" />
+        <Vector3 X="-10192.03" Y="-3190.929" Z="17.35114" />
+        <Vector3 X="-10163.92" Y="-3202.826" Z="24.45457" />
+        <Vector3 X="-10157.67" Y="-3201.005" Z="23.66561" />
+        <Vector3 X="-10151.24" Y="-3205.24" Z="21.93944" />
+        <Vector3 X="-10149.6" Y="-3197.718" Z="20.85484" />
+        <Vector3 X="-10140.43" Y="-3167.656" Z="17.37429" />
+        <Vector3 X="-10129.98" Y="-3153.711" Z="18.54434" />
+        <Vector3 X="-10113.14" Y="-3145.902" Z="22.60884" />
+        <Vector3 X="-10095.62" Y="-3131.349" Z="23.75788" />
+        <Vector3 X="-10133.47" Y="-3117.273" Z="19.70929" />
+        <Vector3 X="-10147.25" Y="-3104.168" Z="17.37511" />
+        <Vector3 X="-10124.56" Y="-3082.535" Z="22.69256" />
+        <Vector3 X="-10102.57" Y="-3075.934" Z="22.58585" />
+        <Vector3 X="-10080.71" Y="-3067.377" Z="22.06842" />
+        <Vector3 X="-10067.92" Y="-3070.123" Z="21.96143" />
+        <Vector3 X="-10074.22" Y="-3055.33" Z="25.44084" />
+        <Vector3 X="-10082.17" Y="-3043.702" Z="22.78614" />
+        <Vector3 X="-10086.85" Y="-3027.78" Z="22.25089" />
+        <Vector3 X="-10086.1" Y="-3017.117" Z="23.51033" />
+        <Vector3 X="-10087.83" Y="-3000.675" Z="22.23401" />
+        <Vector3 X="-10086.96" Y="-2991.715" Z="21.86199" />
+        <Vector3 X="-10076.31" Y="-2986.093" Z="23.23927" />
+        <Vector3 X="-10066.49" Y="-2977.339" Z="21.84029" />
+        <Vector3 X="-10065.27" Y="-2964.141" Z="24.06384" />
+        <Vector3 X="-10070.62" Y="-2956.231" Z="23.65853" />
+        <Vector3 X="-10100.49" Y="-2976.427" Z="18.64003" />
+        <Vector3 X="-10122.48" Y="-3003.057" Z="19.76928" />
+        <Vector3 X="-10129.32" Y="-3011.433" Z="19.39952" />
+        <Vector3 X="-10145.45" Y="-2999.537" Z="22.35998" />
+        <Vector3 X="-10162.72" Y="-2995.79" Z="23.48017" />
+        <Vector3 X="-10165.18" Y="-3015.095" Z="21.86534" />
+        <Vector3 X="-10157.6" Y="-3046.276" Z="19.53928" />
+        <Vector3 X="-10155.96" Y="-3037.696" Z="18.05878" />
+        <Vector3 X="-10182.07" Y="-3039.171" Z="17.37511" />
+        <Vector3 X="-10205.72" Y="-3062.813" Z="21.7327" />
+        <Vector3 X="-10221.05" Y="-3062.684" Z="22.79634" />
+        <Vector3 X="-10241.72" Y="-3067.804" Z="22.82015" />
+        <Vector3 X="-10270.05" Y="-3069.608" Z="20.73927" />
+        <Vector3 X="-10306" Y="-3071.118" Z="22.73225" />
+        <Vector3 X="-10333.09" Y="-3073.688" Z="23.11619" />
+        <Vector3 X="-10346.24" Y="-3081.28" Z="23.03607" />
+        <Vector3 X="-10365.65" Y="-3079.292" Z="22.5008" />
+        <Vector3 X="-10396.31" Y="-3086.766" Z="17.46067" />
+        <Vector3 X="-10428.85" Y="-3079.926" Z="21.52497" />
+        <Vector3 X="-10452.37" Y="-3052.89" Z="22.36841" />
+        <Vector3 X="-10472.99" Y="-3023.446" Z="22.73329" />
+        <Vector3 X="-10488.73" Y="-3003.99" Z="21.9821" />
+        <Vector3 X="-10515.73" Y="-3024.435" Z="22.39766" />
+        <Vector3 X="-10523.33" Y="-3030.614" Z="21.78324" />
+        <Vector3 X="-10525.09" Y="-3002.387" Z="21.60188" />
+        <Vector3 X="-10521.94" Y="-2976.881" Z="21.89028" />
+        <Vector3 X="-10538.07" Y="-2957.753" Z="21.89448" />
+        <Vector3 X="-10541.85" Y="-2926.324" Z="22.44926" />
+        <Vector3 X="-10539.62" Y="-2920.642" Z="23.85311" />
+        <Vector3 X="-10534.55" Y="-2911.622" Z="23.42048" />
+        <Vector3 X="-10544.26" Y="-2892.146" Z="23.06667" />
+        <Vector3 X="-10566.48" Y="-2866.57" Z="22.3481" />
+        <Vector3 X="-10586.47" Y="-2843.38" Z="26.60503" />
+        <Vector3 X="-10588.5" Y="-2818.907" Z="25.18532" />
+        <Vector3 X="-10599.09" Y="-2796.25" Z="25.85786" />
+        <Vector3 X="-10585.98" Y="-2785.204" Z="26.31833" />
+        <Vector3 X="-10563.36" Y="-2792.197" Z="25.45184" />
+        <Vector3 X="-10529.16" Y="-2802.014" Z="22.45768" />
+        <Vector3 X="-10516.17" Y="-2790.095" Z="22.02131" />
+        <Vector3 X="-10516.07" Y="-2763.865" Z="23.308" />
+        <Vector3 X="-10515.94" Y="-2742.051" Z="23.68271" />
+        <Vector3 X="-10506.71" Y="-2751.336" Z="22.0013" />
+        <Vector3 X="-10474.07" Y="-2762.448" Z="21.84258" />
+        <Vector3 X="-10455.39" Y="-2753.776" Z="21.90024" />
+        <Vector3 X="-10443.71" Y="-2745.835" Z="21.67896" />
+        <Vector3 X="-10437.89" Y="-2740.909" Z="21.67896" />
+        <Vector3 X="-10433.94" Y="-2724.214" Z="24.05444" />
+        <Vector3 X="-10438.98" Y="-2717.612" Z="22.42488" />
+        <Vector3 X="-10432.76" Y="-2695.242" Z="22.74058" />
+        <Vector3 X="-10428.63" Y="-2667.763" Z="23.60767" />
+        <Vector3 X="-10427.82" Y="-2660.772" Z="23.67606" />
+        <Vector3 X="-10418.39" Y="-2658.098" Z="21.97258" />
+        <Vector3 X="-10407.88" Y="-2657.548" Z="22.54981" />
+        <Vector3 X="-10395.41" Y="-2673.966" Z="23.43087" />
+        <Vector3 X="-10378.03" Y="-2705.456" Z="21.8272" />
+        <Vector3 X="-10371.03" Y="-2720.215" Z="21.70515" />
+        <Vector3 X="-10357.19" Y="-2723.218" Z="21.88761" />
+        <Vector3 X="-10338.39" Y="-2750.053" Z="18.47184" />
+        <Vector3 X="-10321.74" Y="-2757.605" Z="20.73802" />
+        <Vector3 X="-10287.36" Y="-2753.018" Z="20.10751" />
+        <Vector3 X="-10282.84" Y="-2734.448" Z="23.10893" />
+        <Vector3 X="-10271.5" Y="-2710.54" Z="22.23233" />
+        <Vector3 X="-10250.76" Y="-2715.989" Z="22.78241" />
+        <Vector3 X="-10221.99" Y="-2730.561" Z="23.10269" />
+        <Vector3 X="-10210.65" Y="-2740.151" Z="22.29257" />
+        <Vector3 X="-10207.54" Y="-2759.471" Z="22.42177" />
+        <Vector3 X="-10219.46" Y="-2786.319" Z="17.37508" />
+        <Vector3 X="-10243.4" Y="-2808.127" Z="22.71915" />
+        <Vector3 X="-10233.34" Y="-2812.365" Z="23.26984" />
+        <Vector3 X="-10211.37" Y="-2830.042" Z="23.87935" />
+        <Vector3 X="-10197.99" Y="-2814.185" Z="17.71265" />
+        <Vector3 X="-10165.63" Y="-2812.044" Z="21.4632" />
+        <Vector3 X="-10153.42" Y="-2827.379" Z="22.82597" />
+        <Vector3 X="-10150.68" Y="-2839.089" Z="22.25741" />
+        <Vector3 X="-10142.74" Y="-2852.034" Z="21.91276" />
+        <Vector3 X="-10134.06" Y="-2883.596" Z="23.87334" />
+        <Vector3 X="-10151.09" Y="-2895.973" Z="21.52015" />
+        <Vector3 X="-10165.37" Y="-2893.006" Z="21.66821" />
+        <Vector3 X="-10183.75" Y="-2899.972" Z="17.59482" />
+        <Vector3 X="-10198.6" Y="-2913.134" Z="17.37543" />
+        <Vector3 X="-10215.05" Y="-2930.618" Z="19.06181" />
+        <Vector3 X="-10218.23" Y="-2964.32" Z="18.22823" />
+        <Vector3 X="-10208.94" Y="-2977.214" Z="17.85339" />
+        <Vector3 X="-10189.02" Y="-3006.14" Z="19.54536" />
+        <Vector3 X="-10190.41" Y="-3039.13" Z="17.37458" />
+        <Vector3 X="-10182.62" Y="-3035.262" Z="17.55168" />
+        <Vector3 X="-10159.05" Y="-3010.499" Z="22.48946" />
+        <Vector3 X="-10149.3" Y="-2998.232" Z="22.49241" />
+        <Vector3 X="-10131.17" Y="-2989.892" Z="23.78839" />
+        <Vector3 X="-10116.7" Y="-2983.38" Z="20.66202" />
+        <Vector3 X="-10088.33" Y="-2967.261" Z="22.9446" />
+        <Vector3 X="-10070.96" Y="-2956.71" Z="23.39373" />
+        <Vector3 X="-10059.05" Y="-2983.525" Z="21.93612" />
+        <Vector3 X="-10066.12" Y="-3009.336" Z="23.37573" />
+        <Vector3 X="-10085.21" Y="-3033.083" Z="21.71342" />
+        <Vector3 X="-10092.52" Y="-3067.062" Z="23.52955" />
+        <Vector3 X="-10110.04" Y="-3083.317" Z="21.97309" />
+        <Vector3 X="-10118.26" Y="-3086.103" Z="21.9601" />
+        <Vector3 X="-10151.17" Y="-3093.907" Z="17.37461" />
+        <Vector3 X="-10170.29" Y="-3093.74" Z="22.8651" />
+        <Vector3 X="-10174.51" Y="-3082.715" Z="22.29375" />
+        <Vector3 X="-10201.07" Y="-3078.193" Z="23.08415" />
+        <Vector3 X="-10209.41" Y="-3094.007" Z="22.66275" />
+        <Vector3 X="-10215.32" Y="-3117.15" Z="22.1372" />
+        <Vector3 X="-10233.06" Y="-3120.668" Z="23.76075" />
+        <Vector3 X="-10249.96" Y="-3122.834" Z="24.11163" />
+        <Vector3 X="-10258.64" Y="-3146.836" Z="23.33951" />
+        <Vector3 X="-10264.37" Y="-3168.547" Z="21.8259" />
+        <Vector3 X="-10273.09" Y="-3186.071" Z="21.7218" />
+      </Vectors3>
+      <Npc>
+        <Npc>
+          <Position X="-10407" Y="-3265.75" Z="21.94903" Type="Flying" />
+          <Entry>8176</Entry>
+          <Name>Gharash</Name>
+          <GossipOption>-1</GossipOption>
+          <Active>true</Active>
+          <Faction>Neutral</Faction>
+          <Type>Vendor</Type>
+          <ContinentId>Azeroth</ContinentId>
+        </Npc>
+        <Npc>
+          <Position X="-10407" Y="-3265.75" Z="21.94903" Type="Flying" />
+          <Entry>8176</Entry>
+          <Name>Gharash</Name>
+          <GossipOption>-1</GossipOption>
+          <Active>true</Active>
+          <Faction>Neutral</Faction>
+          <Type>Repair</Type>
+          <ContinentId>Azeroth</ContinentId>
+        </Npc>
+      </Npc>
+      <BlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10231.19" Y="-3274.937" Z="18.2615" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10208.98" Y="-3328.874" Z="24.22424" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10077.81" Y="-3282.539" Z="20.52013" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10110.65" Y="-3243.437" Z="20.47989" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10156.58" Y="-3214.484" Z="22.81174" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10222.27" Y="-3294.506" Z="22.88028" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10280.33" Y="-3337.001" Z="17.37424" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10259.41" Y="-3560.293" Z="21.48815" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10377.26" Y="-3551.567" Z="17.60128" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10428.67" Y="-3518.997" Z="21.65224" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10502.17" Y="-3477.319" Z="18.43583" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+        <GrinderBlackListRadius>
+          <Position X="-10553.85" Y="-3438.913" Z="22.5055" />
+          <Radius>30</Radius>
+          <Continent>Azeroth</Continent>
+        </GrinderBlackListRadius>
+      </BlackListRadius>
+      <NotLoop>true</NotLoop>
+    </GrinderZone>
+  </GrinderZones>
+</GrinderProfile>

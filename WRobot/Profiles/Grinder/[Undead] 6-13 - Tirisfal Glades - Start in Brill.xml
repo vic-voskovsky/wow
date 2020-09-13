@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<GrinderProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GrinderZones>
+    <GrinderZone>
+      <Name>Tirisfal Glades</Name>
+      <Hotspots>true</Hotspots>
+      <RandomizingHotspots>false</RandomizingHotspots>
+      <MinLevel>1</MinLevel>
+      <MaxLevel>100</MaxLevel>
+      <MinTargetLevel>1</MinTargetLevel>
+      <MaxTargetLevel>100</MaxTargetLevel>
+      <TargetEntry>
+        <int>1547</int>
+        <int>1553</int>
+      </TargetEntry>
+      <TargetFactions>
+        <unsignedInt>38</unsignedInt>
+        <unsignedInt>15</unsignedInt>
+      </TargetFactions>
+      <Vectors3>
+        <Vector3 X="2204.079" Y="277.3055" Z="37.84268" />
+        <Vector3 X="2204.079" Y="277.3055" Z="37.84268" />
+        <Vector3 X="2191.55" Y="277.2066" Z="41.25956" />
+        <Vector3 X="2175.007" Y="273.3534" Z="42.61637" />
+        <Vector3 X="2162.679" Y="271.6065" Z="43.68554" />
+        <Vector3 X="2145.026" Y="273.0944" Z="47.66493" />
+        <Vector3 X="2140.523" Y="277.4154" Z="50.19002" />
+        <Vector3 X="2153.061" Y="303.775" Z="45.2457" />
+        <Vector3 X="2155.958" Y="321.0126" Z="44.77588" />
+        <Vector3 X="2149.147" Y="349.9727" Z="44.24558" />
+        <Vector3 X="2147.886" Y="355.3821" Z="43.69129" />
+        <Vector3 X="2122.669" Y="339.1911" Z="48.90642" />
+        <Vector3 X="2116.91" Y="337.4152" Z="50.55929" />
+        <Vector3 X="2099.699" Y="351.74" Z="49.41653" />
+        <Vector3 X="2081.33" Y="366.064" Z="42.84047" />
+        <Vector3 X="2085.232" Y="369.6704" Z="42.71539" />
+        <Vector3 X="2110.847" Y="383.7202" Z="48.46492" />
+        <Vector3 X="2129.117" Y="386.6897" Z="50.83294" />
+        <Vector3 X="2152.367" Y="385.5532" Z="49.83971" />
+        <Vector3 X="2170.177" Y="406.2479" Z="57.0568" />
+        <Vector3 X="2173.944" Y="414.9825" Z="60.23653" />
+        <Vector3 X="2145.854" Y="406.4303" Z="58.38247" />
+        <Vector3 X="2126.342" Y="409.9022" Z="59.84323" />
+        <Vector3 X="2116.558" Y="419.5143" Z="60.07271" />
+        <Vector3 X="2101.397" Y="443.8163" Z="57.23063" />
+        <Vector3 X="2080.57" Y="471.7665" Z="53.14533" />
+        <Vector3 X="2059.78" Y="461.1552" Z="51.37966" />
+        <Vector3 X="2047.048" Y="456.3647" Z="47.32445" />
+        <Vector3 X="2041.792" Y="437.2949" Z="45.86111" />
+        <Vector3 X="2035.136" Y="423.6893" Z="44.09251" />
+        <Vector3 X="2032.579" Y="398.7109" Z="42.15249" />
+        <Vector3 X="2014.256" Y="413.8267" Z="38.39479" />
+        <Vector3 X="1987.3" Y="429.7616" Z="35.17729" />
+        <Vector3 X="1971.019" Y="437.4533" Z="34.49673" />
+        <Vector3 X="1961.54" Y="436.8943" Z="34.73534" />
+        <Vector3 X="1952.737" Y="410.8126" Z="38.05711" />
+        <Vector3 X="1950.3" Y="389.3758" Z="35.99813" />
+        <Vector3 X="1976.782" Y="362.1194" Z="37.78453" />
+        <Vector3 X="1989.786" Y="354.9244" Z="39.30421" />
+        <Vector3 X="2009.434" Y="340.4379" Z="41.45781" />
+        <Vector3 X="2002.582" Y="301.1643" Z="45.04163" />
+        <Vector3 X="1997.702" Y="291.6667" Z="46.88436" />
+        <Vector3 X="1998.384" Y="263.4328" Z="42.82361" />
+        <Vector3 X="1999.979" Y="257.5263" Z="42.44016" />
+        <Vector3 X="1977.462" Y="285.9629" Z="42.05076" />
+        <Vector3 X="1957.652" Y="322.3886" Z="39.10004" />
+        <Vector3 X="1958.299" Y="350.1665" Z="38.74849" />
+        <Vector3 X="1950.144" Y="386.9636" Z="35.70246" />
+        <Vector3 X="1953.344" Y="428.1518" Z="36.2463" />
+        <Vector3 X="1953.245" Y="453.1675" Z="34.32254" />
+        <Vector3 X="1934.472" Y="474.1346" Z="37.97609" />
+        <Vector3 X="1908.966" Y="491.2663" Z="40.20111" />
+        <Vector3 X="1914.001" Y="498.6682" Z="42.03588" />
+        <Vector3 X="1930.345" Y="526.9789" Z="48.29193" />
+        <Vector3 X="1942.678" Y="537.3566" Z="50.2433" />
+        <Vector3 X="1966.824" Y="554.6883" Z="48.53706" />
+        <Vector3 X="1979.685" Y="577.5588" Z="45.50055" />
+        <Vector3 X="2002.283" Y="600.384" Z="43.91758" />
+        <Vector3 X="2008.772" Y="606.9857" Z="41.26918" />
+        <Vector3 X="1988.166" Y="610.1584" Z="50.0663" />
+        <Vector3 X="1964.695" Y="612.4266" Z="56.58455" />
+        <Vector3 X="1937.828" Y="613.4534" Z="54.95005" />
+        <Vector3 X="1918" Y="623.8186" Z="51.89339" />
+        <Vector3 X="1911.339" Y="625.7015" Z="49.22966" />
+        <Vector3 X="1915.128" Y="644.5014" Z="43.60127" />
+        <Vector3 X="1925.605" Y="668.3858" Z="39.41704" />
+        <Vector3 X="1922.931" Y="692.3872" Z="39.33662" />
+        <Vector3 X="1899.123" Y="702.6742" Z="36.73436" />
+        <Vector3 X="1866.971" Y="713.4684" Z="38.66006" />
+        <Vector3 X="1878.097" Y="692.3641" Z="37.45238" />
+        <Vector3 X="1886.22" Y="670.4357" Z="36.69682" />
+        <Vector3 X="1876.239" Y="630.9127" Z="40.72464" />
+        <Vector3 X="1873.739" Y="600.5889" Z="47.84922" />
+        <Vector3 X="1847.659" Y="575.1465" Z="40.02868" />
+        <Vector3 X="1831.18" Y="596.3245" Z="42.6855" />
+        <Vector3 X="1801.069" Y="587.1241" Z="45.38283" />
+        <Vector3 X="1801.7" Y="555.809" Z="34.85876" />
+        <Vector3 X="1809.64" Y="551.2083" Z="34.39718" />
+        <Vector3 X="1782.446" Y="567.6565" Z="38.2813" />
+        <Vector3 X="1749.163" Y="574.9493" Z="34.06804" />
+        <Vector3 X="1737.697" Y="545.0544" Z="33.45985" />
+        <Vector3 X="1743.339" Y="540.1781" Z="33.39653" />
+        <Vector3 X="1764.618" Y="551.0849" Z="37.05611" />
+      </Vectors3>
+      <Npc>
+        <Npc>
+          <Position X="2237.77" Y="312.294" Z="36.72174" />
+          <Entry>2135</Entry>
+          <Name>Abe Winters</Name>
+          <GossipOption>-1</GossipOption>
+          <Active>true</Active>
+          <Faction>Neutral</Faction>
+          <Type>Vendor</Type>
+          <ContinentId>Azeroth</ContinentId>
+        </Npc>
+        <Npc>
+          <Position X="2237.77" Y="312.294" Z="36.72174" />
+          <Entry>2135</Entry>
+          <Name>Abe Winters</Name>
+          <GossipOption>-1</GossipOption>
+          <Active>true</Active>
+          <Faction>Neutral</Faction>
+          <Type>Repair</Type>
+          <ContinentId>Azeroth</ContinentId>
+        </Npc>
+        <Npc>
+          <Position X="2237.77" Y="312.294" Z="36.72174" />
+          <Entry>2135</Entry>
+          <Name>Abe Winters</Name>
+          <GossipOption>-1</GossipOption>
+          <Active>false</Active>
+          <Faction>Neutral</Faction>
+          <Type>Mailbox</Type>
+          <ContinentId>Azeroth</ContinentId>
+        </Npc>
+        <Npc>
+          <Position X="2238.56" Y="254.503" Z="34.0054" />
+          <Entry>143990</Entry>
+          <Name>Mailbox</Name>
+          <GossipOption>-1</GossipOption>
+          <Active>true</Active>
+          <Faction>Neutral</Faction>
+          <Type>Mailbox</Type>
+          <ContinentId>Azeroth</ContinentId>
+        </Npc>
+      </Npc>
+      <BlackListRadius />
+      <NotLoop>true</NotLoop>
+    </GrinderZone>
+  </GrinderZones>
+</GrinderProfile>

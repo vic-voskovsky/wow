@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTaxiNode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TaxiNode>
+    <SlotIndex>1</SlotIndex>
+    <Position X="-1197.21" Y="29.71" Z="176.95" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Thunder Bluff, Mulgore</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>2</SlotIndex>
+    <Position X="1677.59" Y="-4315.71" Z="61.17" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Orgrimmar, Durotar</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>3</SlotIndex>
+    <Position X="-441.8" Y="-2596.08" Z="96.06" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Crossroads, The Barrens</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>4</SlotIndex>
+    <Position X="-1767.64" Y="3263.89" Z="4.94" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Shadowprey Village, Desolace</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>5</SlotIndex>
+    <Position X="-7223.97" Y="-3734.59" Z="8.39" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Gadgetzan, Tanaris</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>6</SlotIndex>
+    <Position X="-4419.86" Y="199.31" Z="25.06" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Camp Mojache, Feralas</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>7</SlotIndex>
+    <Position X="3664.02" Y="-4390.45" Z="113.0549" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Valormok, Azshara</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>8</SlotIndex>
+    <Position X="-3147.39" Y="-2842.18" Z="34.61" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Brackenwall Village, Dustwallow Marsh</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>9</SlotIndex>
+    <Position X="3374.71" Y="996.97" Z="5.19" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Zoram'gar Outpost, Ashenvale</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>10</SlotIndex>
+    <Position X="-2380.67" Y="-1882.67" Z="95.85" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Camp Taurajo, The Barrens</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>11</SlotIndex>
+    <Position X="-6113.82" Y="-1142.7" Z="-187.63" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Marshal's Refuge, Un'Goro Crater</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>12</SlotIndex>
+    <Position X="-894.59" Y="-3773.01" Z="11.48" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Ratchet, The Barrens</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>14</SlotIndex>
+    <Position X="-4566.23" Y="-3226.05" Z="34.7" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Mudsprocket, Dustwallow Marsh</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>13</SlotIndex>
+    <Position X="3978.74" Y="-1316.42" Z="250.11" />
+    <CharacterAvailable>
+      <string>OgawdKarazhan</string>
+    </CharacterAvailable>
+    <ContinentId>1</ContinentId>
+    <Name>Emerald Sanctuary, Felwood</Name>
+    <Active>true</Active>
+  </TaxiNode>
+</ArrayOfTaxiNode>
