@@ -9,7 +9,7 @@ AucAdvancedStatPurchasedData = {
 						[2770] = "0:1;1;500.0;500.0;500.0,",
 					},
 					["daily"] = {
-						["created"] = 1599596016,
+						["created"] = 1599946684,
 					},
 				},
 				["daily"] = {
@@ -18,6 +18,12 @@ AucAdvancedStatPurchasedData = {
 				["means"] = {
 				},
 				["auctionData"] = {
+					[409] = {
+						["bidon"] = true,
+					},
+					[417] = {
+						["bidon"] = true,
+					},
 				},
 			},
 			["Neutral"] = {

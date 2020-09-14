@@ -14,9 +14,9 @@
   <LootAndHarvestRangeQuickly>true</LootAndHarvestRangeQuickly>
   <LootInCombat>false</LootInCombat>
   <SkipNodesInWater>false</SkipNodesInWater>
-  <MaxUnitsNearMobs>1</MaxUnitsNearMobs>
-  <MaxUnitsNearObjects>1</MaxUnitsNearObjects>
-  <SearchRadiusMobs>150</SearchRadiusMobs>
+  <MaxUnitsNearMobs>3</MaxUnitsNearMobs>
+  <MaxUnitsNearObjects>3</MaxUnitsNearObjects>
+  <SearchRadiusMobs>300</SearchRadiusMobs>
   <SearchRadiusObjects>300</SearchRadiusObjects>
   <MaxZDistanceAttack>150</MaxZDistanceAttack>
   <MaxZDistanceIsAttacked>150</MaxZDistanceIsAttacked>
@@ -119,11 +119,11 @@
   <DrinkIsSpell>false</DrinkIsSpell>
   <LootMobs>true</LootMobs>
   <DetectNodesStuck>true</DetectNodesStuck>
-  <LootChests>false</LootChests>
-  <SkinMobs>false</SkinMobs>
+  <LootChests>true</LootChests>
+  <SkinMobs>true</SkinMobs>
   <SkinNinja>true</SkinNinja>
   <HarvestMinerals>true</HarvestMinerals>
-  <HarvestHerbs>true</HarvestHerbs>
+  <HarvestHerbs>false</HarvestHerbs>
   <HarvestTimber>false</HarvestTimber>
   <HarvestAvoidPlayersRadius>7</HarvestAvoidPlayersRadius>
   <HarvestDuringLongMove>false</HarvestDuringLongMove>
@@ -209,7 +209,7 @@
     <string>Head of Jammal'an</string>
   </DoNotMailList>
   <ForceMailList />
-  <CloseIfFullBag>false</CloseIfFullBag>
+  <CloseIfFullBag>true</CloseIfFullBag>
   <CloseIfReached4000HonorPoints>false</CloseIfReached4000HonorPoints>
   <CloseIfPlayerTeleported>true</CloseIfPlayerTeleported>
   <CloseAfterXLevel>100</CloseAfterXLevel>
@@ -229,7 +229,7 @@
   <CloseAfterXDeathsActive>false</CloseAfterXDeathsActive>
   <CloseAfterXDeathsLatest10Minutes>5</CloseAfterXDeathsLatest10Minutes>
   <CloseAfterXMinActive>false</CloseAfterXMinActive>
-  <AttackBeforeBeingAttacked>true</AttackBeforeBeingAttacked>
+  <AttackBeforeBeingAttacked>false</AttackBeforeBeingAttacked>
   <SpellRotationSpeed>false</SpellRotationSpeed>
   <IgnoreFightDuringFarmIfDruidForm>false</IgnoreFightDuringFarmIfDruidForm>
   <WaitResurrectionSickness>false</WaitResurrectionSickness>
@@ -256,6 +256,6 @@
   <PathFinderPostionOffset>1</PathFinderPostionOffset>
   <FlightMasterDiscoverRange>150</FlightMasterDiscoverRange>
   <FlightMasterTaxiDistance>1000</FlightMasterTaxiDistance>
-  <FlightMasterTaxiUse>true</FlightMasterTaxiUse>
+  <FlightMasterTaxiUse>false</FlightMasterTaxiUse>
   <FlightMasterTaxiUseOnlyIfNear>false</FlightMasterTaxiUseOnlyIfNear>
 </wManagerSetting>

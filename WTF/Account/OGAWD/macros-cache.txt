@@ -5,13 +5,18 @@ MACRO 19 "DEF " Ability_Warrior_ShieldMastery
 /cast Shield Block
 END
 MACRO 21 "DPS" Ability_DualWield
-/equipslot 17 The Rockpounder
+/equipslot 16 Princess Theradras' Scepter
 /startattack
 END
 MACRO 30 "Mount" INV_Misc_QuestionMark
 #showtooltip 
 /use Horn of the Timber Wolf
 /dismount
+END
+MACRO 31 "rot" INV_Misc_QuestionMark
+#showtooltip
+/cast Bloodthirst
+/cast Shoot
 END
 MACRO 24 "Shield Block" INV_Misc_QuestionMark
 #showtooltip
