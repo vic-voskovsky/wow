@@ -11,7 +11,7 @@ Bagnon_Config: enabled
 Bagnon_GuildBank: enabled
 Bagnon_VoidStorage: enabled
 BeanCounter: enabled
-BtmScan: disabled
+BtmScan: enabled
 Enchantrix: disabled
 EnhTooltip: enabled
 Informant: enabled

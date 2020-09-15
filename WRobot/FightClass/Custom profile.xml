@@ -35,7 +35,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Battle Shout</SpellName>
-      <Priority>17</Priority>
+      <Priority>19</Priority>
       <IsBuff>true</IsBuff>
       <CheckIfKnow>false</CheckIfKnow>
       <CheckIfView>false</CheckIfView>
@@ -79,7 +79,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Demoralizing Shout</SpellName>
-      <Priority>16</Priority>
+      <Priority>18</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <CheckSpellDistance>false</CheckSpellDistance>
       <AddToSettings>true</AddToSettings>
@@ -106,7 +106,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Bloodrage</SpellName>
-      <Priority>15</Priority>
+      <Priority>17</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <CheckIfView>false</CheckIfView>
       <Timer>60000</Timer>
@@ -142,7 +142,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Hamstring</SpellName>
-      <Priority>14</Priority>
+      <Priority>16</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <AddToSettings>true</AddToSettings>
       <AddToSettingsActiveByDefault>true</AddToSettingsActiveByDefault>
@@ -167,7 +167,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Retaliation</SpellName>
-      <Priority>13</Priority>
+      <Priority>15</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <CheckIfView>false</CheckIfView>
       <AddToSettings>true</AddToSettings>
@@ -201,7 +201,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Sweeping Strikes</SpellName>
-      <Priority>12</Priority>
+      <Priority>14</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <Timer>30000</Timer>
     </FightClassSpell>
@@ -217,7 +217,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>UseInventoryItem( 13 )</SpellName>
-      <Priority>11</Priority>
+      <Priority>13</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <AddToSettings>true</AddToSettings>
       <AddToSettingsName>Use First Trinket</AddToSettingsName>
@@ -236,7 +236,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>UseInventoryItem( 14 )</SpellName>
-      <Priority>10</Priority>
+      <Priority>12</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <AddToSettings>true</AddToSettings>
       <AddToSettingsName>Use Second Trinket</AddToSettingsName>
@@ -276,7 +276,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Cleave</SpellName>
-      <Priority>9</Priority>
+      <Priority>11</Priority>
       <CheckIfKnow>false</CheckIfKnow>
     </FightClassSpell>
     <FightClassSpell>
@@ -297,7 +297,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Heroic Strike</SpellName>
-      <Priority>8</Priority>
+      <Priority>10</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <CastOn>target</CastOn>
     </FightClassSpell>
@@ -332,7 +332,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Thunder Clap</SpellName>
-      <Priority>7</Priority>
+      <Priority>9</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <AddToSettings>true</AddToSettings>
       <AddToSettingsActiveByDefault>true</AddToSettingsActiveByDefault>
@@ -357,35 +357,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Victory Rush</SpellName>
-      <Priority>6</Priority>
-      <CheckIfKnow>false</CheckIfKnow>
-      <CastOn>target</CastOn>
-    </FightClassSpell>
-    <FightClassSpell>
-      <FightClassConditions>
-        <FightClassCondition>
-          <ContionType>TargetHealthPercent</ContionType>
-          <Param xsi:type="FightClassConditionNumber">
-            <Type>SmallerOrEqual</Type>
-            <Value>20</Value>
-          </Param>
-        </FightClassCondition>
-        <FightClassCondition>
-          <ContionType>Rage</ContionType>
-          <Param xsi:type="FightClassConditionNumber">
-            <Type>BiggerOrEqual</Type>
-            <Value>15</Value>
-          </Param>
-        </FightClassCondition>
-        <FightClassCondition>
-          <ContionType>KnowSpell</ContionType>
-          <Param xsi:type="FightClassConditionStringBool">
-            <Name>Execute</Name>
-            <Need>true</Need>
-          </Param>
-        </FightClassCondition>
-      </FightClassConditions>
-      <SpellName>Execute</SpellName>
+      <Priority>8</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <CastOn>target</CastOn>
     </FightClassSpell>
@@ -414,7 +386,7 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Overpower</SpellName>
-      <Priority>4</Priority>
+      <Priority>7</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <Timer>5000</Timer>
       <CastOn>target</CastOn>
@@ -422,7 +394,7 @@
     <FightClassSpell>
       <FightClassConditions />
       <SpellName>Mortal Strike</SpellName>
-      <Priority>3</Priority>
+      <Priority>6</Priority>
       <Timer>6000</Timer>
     </FightClassSpell>
     <FightClassSpell>
@@ -443,10 +415,19 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Bloodthirst</SpellName>
-      <Priority>2</Priority>
       <CheckIfKnow>false</CheckIfKnow>
       <Timer>6000</Timer>
       <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Devastate</SpellName>
+      <Priority>4</Priority>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Concussion Blow</SpellName>
+      <Priority>3</Priority>
     </FightClassSpell>
     <FightClassSpell>
       <FightClassConditions>
@@ -477,12 +458,41 @@
         </FightClassCondition>
       </FightClassConditions>
       <SpellName>Charge</SpellName>
-      <Priority>1</Priority>
+      <Priority>2</Priority>
       <CombatOnly>false</CombatOnly>
       <CheckIfKnow>false</CheckIfKnow>
       <AddToSettings>true</AddToSettings>
       <AddToSettingsName>Use Charge</AddToSettingsName>
       <Timer>15000</Timer>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>TargetHealthPercent</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>SmallerOrEqual</Type>
+            <Value>20</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>15</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Execute</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Execute</SpellName>
+      <Priority>1</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
       <CastOn>target</CastOn>
     </FightClassSpell>
   </FightClassSpells>

@@ -66,4 +66,48 @@
     <VendorItemClass>Food</VendorItemClass>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
+  <Npc>
+    <Position X="-350.079" Y="-2566.59" Z="97.35832" Type="Flying" />
+    <Entry>3483</Entry>
+    <Name>Jahan Hawkwing</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-343.921" Y="-2558.13" Z="97.857" Type="Flying" />
+    <Entry>3477</Entry>
+    <Name>Hraq</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-351.184" Y="-2556.51" Z="95.78765" Type="Flying" />
+    <Entry>3488</Entry>
+    <Name>Uthrok</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-356.996" Y="-2568.86" Z="95.78765" Type="Flying" />
+    <Entry>3479</Entry>
+    <Name>Nargal Deatheye</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
 </ArrayOfNpc>

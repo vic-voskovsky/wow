@@ -14,8 +14,8 @@
   <LootAndHarvestRangeQuickly>true</LootAndHarvestRangeQuickly>
   <LootInCombat>false</LootInCombat>
   <SkipNodesInWater>false</SkipNodesInWater>
-  <MaxUnitsNearMobs>3</MaxUnitsNearMobs>
-  <MaxUnitsNearObjects>3</MaxUnitsNearObjects>
+  <MaxUnitsNearMobs>2</MaxUnitsNearMobs>
+  <MaxUnitsNearObjects>2</MaxUnitsNearObjects>
   <SearchRadiusMobs>300</SearchRadiusMobs>
   <SearchRadiusObjects>300</SearchRadiusObjects>
   <MaxZDistanceAttack>150</MaxZDistanceAttack>

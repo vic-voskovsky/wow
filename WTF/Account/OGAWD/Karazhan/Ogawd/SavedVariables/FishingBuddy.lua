@@ -3,7 +3,7 @@ FishingBuddy_Player = {
 	["Outfit"] = {
 	},
 	["Settings"] = {
-		["TotalTimeFishing"] = 7485.543000000032,
+		["TotalTimeFishing"] = 7962.980000000032,
 		["InfoBarClickToSwitch"] = 0,
 		["ResetWatcher"] = 1,
 		["MinimapButtonPosition"] = 224.2127194812148,

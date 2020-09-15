@@ -12,6 +12,13 @@ MACRO 16777223 " " INV_Misc_QuestionMark
 /cast [equipped:Shields] Defensive Stance
 /script SetRaidTarget("target",8)
 END
+MACRO 16777228 " ALL" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Sweeping Strikes
+/cast [mod:shift] 
+/cast [mod:ctrl] Intimidating Shout
+END
 MACRO 16777227 " ALL" INV_Misc_QuestionMark
 #showtooltip
 /startattack
@@ -25,13 +32,6 @@ MACRO 16777224 " ALL" INV_Misc_QuestionMark
 /cast [nomod] Heroic Strike
 /cast [mod:shift] Cleave
 /cast [mod:ctrl] Slam
-END
-MACRO 16777228 " ALL" INV_Misc_QuestionMark
-#showtooltip
-/startattack
-/cast [nomod] Sweeping Strikes
-/cast [mod:shift] 
-/cast [mod:ctrl] Intimidating Shout
 END
 MACRO 16777221 " ARM" INV_Misc_QuestionMark
 #showtooltip
@@ -86,6 +86,13 @@ MACRO 16777229 "DEF" INV_Misc_QuestionMark
 /cast [nomod] Revenge
 /cast [mod:shift] Taunt
 /cast [mod:ctrl] Disarm
+END
+MACRO 16777236 "DEV" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Devastate
+/cast [mod:shift] Concussion Blow
+/cast [mod:ctrl] Shield Slam
 END
 MACRO 16777222 "DUAL" INV_Misc_QuestionMark
 #showtooltip

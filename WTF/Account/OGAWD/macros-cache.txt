@@ -1,11 +1,12 @@
 MACRO 19 "DEF " Ability_Warrior_ShieldMastery
 /startattack
-/equipslot 16 The Hand of Antu'sul
+/equipslot 16 Might of Hakkar
 /equipslot 17 Aegis of the Scarlet Commander
 /cast Shield Block
 END
 MACRO 21 "DPS" Ability_DualWield
-/equipslot 16 Princess Theradras' Scepter
+/equipslot 16 The Hand of Antu'sul
+/equipslot 17 Might of Hakkar
 /startattack
 END
 MACRO 30 "Mount" INV_Misc_QuestionMark

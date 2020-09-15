@@ -7,10 +7,10 @@ RecountDB = {
 		["Ogawd - Karazhan"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -551.8338775634766,
-					["x"] = 847.5037231445313,
-					["w"] = 396.666748046875,
-					["h"] = 108.6666641235352,
+					["y"] = -551.5000305175781,
+					["x"] = 847.1665649414063,
+					["w"] = 396.9999389648438,
+					["h"] = 109,
 				},
 			},
 			["MainWindowHeight"] = 108.6666564941406,
@@ -25,7 +25,7 @@ RecountDB = {
 				},
 			},
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Wailing Caverns",
+			["LastInstanceName"] = "Blackrock Depths",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 396.6666564941406,
 		},
