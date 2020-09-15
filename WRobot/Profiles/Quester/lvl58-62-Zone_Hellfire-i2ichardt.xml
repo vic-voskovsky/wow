@@ -1,0 +1,3198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EasyQuestProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestsSorted>
+    <QuestsSorted Action="IfHasQuest" NameClass="10289" />
+    <QuestsSorted Action="Pulse" NameClass="JourneytoThrallmar" />
+    <QuestsSorted Action="TurnIn" NameClass="JourneytoThrallmar" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="Quest.GetQuestCompleted(10289) &amp;&amp; !Quest.GetQuestCompleted(10291)" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="ReporttoNazgrel" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="None" NameClass="//----------------------------------------------------" />
+    <QuestsSorted Action="PickUp" NameClass="EradicatetheBurningLegion" />
+    <QuestsSorted Action="PickUp" NameClass="IWorkFortheHorde" />
+    <QuestsSorted Action="PickUp" NameClass="BonechewerBlood" />
+    <QuestsSorted Action="Pulse" NameClass="BonechewerBlood" />
+    <QuestsSorted Action="Pulse" NameClass="IWorkFortheHorde" />
+    <QuestsSorted Action="TurnIn" NameClass="FelsparkRavine" />
+    <QuestsSorted Action="TurnIn" NameClass="IWorkFortheHorde" />
+    <QuestsSorted Action="PickUp" NameClass="BurnItUpFortheHorde" />
+    <QuestsSorted Action="TurnIn" NameClass="BonechewerBlood" />
+    <QuestsSorted Action="TurnIn" NameClass="EradicatetheBurningLegion" />
+    <QuestsSorted Action="PickUp" NameClass="FelsparkRavine" />
+    <QuestsSorted Action="Pulse" NameClass="FelsparkRavine" />
+    <QuestsSorted Action="TurnIn" NameClass="FelsparkRavine" />
+    <QuestsSorted Action="PickUp" NameClass="ForwardBaseReaversFall" />
+    <QuestsSorted Action="Pulse" NameClass="ApothecaryZelana" />
+    <QuestsSorted Action="TurnIn" NameClass="ApothecaryZelana" />
+    <QuestsSorted Action="PickUp" NameClass="SpinebreakerPost" />
+    <QuestsSorted Action="Pulse" NameClass="ForwardBaseReaversFall" />
+    <QuestsSorted Action="TurnIn" NameClass="ForwardBaseReaversFall" />
+    <QuestsSorted Action="PickUp" NameClass="DisruptTheirReinforcements" />
+    <QuestsSorted Action="Pulse" NameClass="BurnItUpFortheHorde" />
+    <QuestsSorted Action="TurnIn" NameClass="BurnItUpFortheHorde" />
+    <QuestsSorted Action="Pulse" NameClass="SpinebreakerPost" />
+    <QuestsSorted Action="TurnIn" NameClass="SpinebreakerPost" />
+    <QuestsSorted Action="PickUp" NameClass="BoilingBlood" />
+    <QuestsSorted Action="PickUp" NameClass="PreparingtheSalve" />
+    <QuestsSorted Action="PickUp" NameClass="MakeThemListen" />
+    <QuestsSorted Action="PickUp" NameClass="TheWarpRifts" />
+    <QuestsSorted Action="PickUp" NameClass="WANTEDWorgMasterKruush" />
+    <QuestsSorted Action="Pulse" NameClass="MakeThemListen" />
+    <QuestsSorted Action="Pulse" NameClass="TheWarpRifts" />
+    <QuestsSorted Action="TurnIn" NameClass="MakeThemListen" />
+    <QuestsSorted Action="TurnIn" NameClass="TheWarpRifts" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Helpers.ItemsManager.UseItem(28552);&#xD;&#xA;&#xD;&#xA;//Use Item Code Example that give quest" />
+    <QuestsSorted Action="PickUp" NameClass="DeciphertheTome" />
+    <QuestsSorted Action="TurnIn" NameClass="DeciphertheTome" />
+    <QuestsSorted Action="PickUp" NameClass="VoidRidge" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="TheBattleHorn" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="BloodyVengeance" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="HonortheFallen" />
+    <QuestsSorted Action="Pulse" NameClass="Grindto60" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="OutlandSucks" />
+    <QuestsSorted Action="PickUp" NameClass="HowtoServeGoblins" />
+    <QuestsSorted Action="PickUp" NameClass="TheAssassin" />
+    <QuestsSorted Action="PickUp" NameClass="WeakentheRamparts" />
+    <QuestsSorted Action="If" NameClass="Quest.GetQuestCompleted(9498) || Quest.GetQuestCompleted(9499)" />
+    <QuestsSorted Action="GoToStep" NameClass="69" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="PickUp" NameClass="FalconWatch" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="ScriptedDisruptTheirReinforcements" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="MissionGatewaysMurkethandShaadraz" />
+    <QuestsSorted Action="PickUp" NameClass="MissionTheAbyssalShelf" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="ReturntoThrallmar" />
+    <QuestsSorted Action="Pulse" NameClass="VoidRidge" />
+    <QuestsSorted Action="If" NameClass="wManager.Wow.Helpers.ItemsManager.GetItemCountById(29588) == 1" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Helpers.ItemsManager.UseItem(29588);&#xD;&#xA;&#xD;&#xA;//Item: Burning Legion Missive&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//Use Item Code Example that give quest&#xD;&#xA;//Follow up with a pickup for the quest it gives" />
+    <QuestsSorted Action="PickUp" NameClass="VilePlans" />
+    <QuestsSorted Action="TurnIn" NameClass="VilePlans" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="TurnIn" NameClass="VoidRidge" />
+    <QuestsSorted Action="RunLuaCode" NameClass="--delete any extra void shards you collected for quest 'voidridge'&#xD;&#xA;&#xD;&#xA;number = 1;&#xD;&#xA;i=1; &#xD;&#xA;for bag = 0,4,1 do &#xD;&#xA; for slot = 1, GetContainerNumSlots(bag), 1 do&#xD;&#xA;  local name = GetContainerItemLink(bag,slot);&#xD;&#xA;  if name and string.find(name,&quot;Void Ridge Soul Shard&quot;) then&#xD;&#xA;   if i &gt; number then PickupContainerItem(bag,slot);&#xD;&#xA;   DeleteCursorItem();&#xD;&#xA;   end;&#xD;&#xA;  end;&#xD;&#xA;  i=i+1; &#xD;&#xA; end; &#xD;&#xA;end;" />
+    <QuestsSorted Action="PickUp" NameClass="FromtheAbyss" />
+    <QuestsSorted Action="Pulse" NameClass="Grindto61" />
+    <QuestsSorted Action="PickUp" NameClass="WANTEDBlacktalontheSavage" />
+    <QuestsSorted Action="PickUp" NameClass="TrueflightArrows" />
+    <QuestsSorted Action="PickUp" NameClass="HelpingtheCenarionPost" />
+    <QuestsSorted Action="IfHasQuest" NameClass="9499" />
+    <QuestsSorted Action="RunCode" NameClass="var pos = new Vector3(-593.3403f, 4077.354f, 93.8172f);&#xD;&#xA;int objectId = 184501 ;&#xD;&#xA;&#xD;&#xA;wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(pos, objectId);&#xD;&#xA;&#xD;&#xA;Thread.Sleep(Usefuls.Latency + 10000);" />
+    <QuestsSorted Action="Pulse" NameClass="FalconWatch" />
+    <QuestsSorted Action="TurnIn" NameClass="FalconWatch" />
+    <QuestsSorted Action="PickUp" NameClass="TheGreatFissure" />
+    <QuestsSorted Action="PickUp" NameClass="ReporttoZurai" />
+    <QuestsSorted Action="RunCode" NameClass="var pos = new Vector3(-591.9609f, 4072.734f, 143.6378f);&#xD;&#xA;int objectId = 184500 ;&#xD;&#xA;&#xD;&#xA;wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(pos, objectId);&#xD;&#xA;&#xD;&#xA;Thread.Sleep(Usefuls.Latency + 10000);" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="IfHasQuest" NameClass="9498" />
+    <QuestsSorted Action="RunCode" NameClass="var pos = new Vector3(-593.3403f, 4077.354f, 93.8172f);&#xD;&#xA;int objectId = 184501 ;&#xD;&#xA;&#xD;&#xA;wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(pos, objectId);&#xD;&#xA;&#xD;&#xA;Thread.Sleep(Usefuls.Latency + 10000);" />
+    <QuestsSorted Action="Pulse" NameClass="FalconWatch9498" />
+    <QuestsSorted Action="TurnIn" NameClass="FalconWatch9498" />
+    <QuestsSorted Action="PickUp" NameClass="TheGreatFissure" />
+    <QuestsSorted Action="PickUp" NameClass="ReporttoZurai" />
+    <QuestsSorted Action="RunCode" NameClass="var pos = new Vector3(-591.9609f, 4072.734f, 143.6378f);&#xD;&#xA;int objectId = 184500 ;&#xD;&#xA;&#xD;&#xA;wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(pos, objectId);&#xD;&#xA;&#xD;&#xA;Thread.Sleep(Usefuls.Latency + 10000);" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="PickUp" NameClass="MagicoftheArakkoa" />
+    <QuestsSorted Action="PickUp" NameClass="InNeedofFelblood" />
+    <QuestsSorted Action="PickUp" NameClass="SourceoftheCorruption" />
+    <QuestsSorted Action="PickUp" NameClass="ArelionsJournal" />
+    <QuestsSorted Action="Pulse" NameClass="TrueflightArrows" />
+    <QuestsSorted Action="TurnIn" NameClass="TrueflightArrows" />
+    <QuestsSorted Action="Pulse" NameClass="TheGreatFissure" />
+    <QuestsSorted Action="If" NameClass="!Quest.GetQuestCompleted(9340)" />
+    <QuestsSorted Action="RunCode" NameClass="var pos = new Vector3(-593.3403f, 4077.354f, 93.8172f);&#xD;&#xA;int objectId = 184501 ;&#xD;&#xA;&#xD;&#xA;wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(pos, objectId);&#xD;&#xA;&#xD;&#xA;Thread.Sleep(Usefuls.Latency + 10000);" />
+    <QuestsSorted Action="TurnIn" NameClass="TheGreatFissure" />
+    <QuestsSorted Action="PickUp" NameClass="MarkingthePath" />
+    <QuestsSorted Action="RunCode" NameClass="var pos = new Vector3(-591.9609f, 4072.734f, 143.6378f);&#xD;&#xA;int objectId = 184500 ;&#xD;&#xA;&#xD;&#xA;wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(pos, objectId);&#xD;&#xA;&#xD;&#xA;Thread.Sleep(Usefuls.Latency + 10000);" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="MagicoftheArakkoa" />
+    <QuestsSorted Action="TurnIn" NameClass="MagicoftheArakkoa" />
+    <QuestsSorted Action="Pulse" NameClass="TheAssassin" />
+    <QuestsSorted Action="TurnIn" NameClass="TheAssassin" />
+    <QuestsSorted Action="PickUp" NameClass="AStrangeWeapon" />
+    <QuestsSorted Action="TurnIn" NameClass="AStrangeWeapon" />
+    <QuestsSorted Action="PulseAllInOne" NameClass="TheWarchiefsMandate" />
+    <QuestsSorted Action="RunCode" NameClass="Thread t = new Thread(() =&gt;&#xD;&#xA;{&#xD;&#xA;              //Birds of a Feather Quest&#xD;&#xA;             //Use Cage if Female Bird is Targeted&#xD;&#xA;&#xD;&#xA; uint itemId = 23485;&#xD;&#xA; int questId = 9397;&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA; while (robotManager.Products.Products.IsStarted)&#xD;&#xA; {&#xD;&#xA;  if (Conditions.InGameAndConnectedAndAliveAndProductStartedNotInPause)&#xD;&#xA;  {&#xD;&#xA;   if (!Quest.HasQuest(questId))&#xD;&#xA;    break;&#xD;&#xA;   if (ObjectManager.Target.IsValid &amp;&amp; ObjectManager.Target.IsAlive &amp;&amp; ObjectManager.Target.Name ==&quot;Female Kaliri Hatchling&quot; )&#xD;&#xA;   {&#xD;&#xA;    ItemsManager.UseItem(itemId);&#xD;&#xA;   }&#xD;&#xA;  }&#xD;&#xA;  Thread.Sleep(500);&#xD;&#xA; }&#xD;&#xA;});&#xD;&#xA;t.Start();&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;// ObjectManager.Target.HealthPercent &lt;= 25" />
+    <QuestsSorted Action="Pulse" NameClass="BirdsofaFeather" />
+    <QuestsSorted Action="TurnIn" NameClass="BirdsofaFeather" />
+    <QuestsSorted Action="Pulse" NameClass="FromtheAbyss" />
+    <QuestsSorted Action="Pulse" NameClass="PreparingtheSalve" />
+    <QuestsSorted Action="Pulse" NameClass="WANTEDWorgMasterKruush" />
+    <QuestsSorted Action="TurnIn" NameClass="PreparingtheSalve" />
+    <QuestsSorted Action="PickUp" NameClass="InvestigatetheCrash" />
+    <QuestsSorted Action="TurnIn" NameClass="WANTEDWorgMasterKruush" />
+    <QuestsSorted Action="TurnIn" NameClass="FromtheAbyss" />
+    <QuestsSorted Action="Pulse" NameClass="InvestigatetheCrash" />
+    <QuestsSorted Action="TurnIn" NameClass="InvestigatetheCrash" />
+    <QuestsSorted Action="PickUp" NameClass="InCaseofEmergency" />
+    <QuestsSorted Action="PickUp" NameClass="RavagerEggRoundup" />
+    <QuestsSorted Action="Pulse" NameClass="InCaseofEmergency" />
+    <QuestsSorted Action="TurnIn" NameClass="InCaseofEmergency" />
+    <QuestsSorted Action="PickUp" NameClass="VoidwalkersGoneWild" />
+    <QuestsSorted Action="Pulse" NameClass="VoidwalkersGoneWild" />
+    <QuestsSorted Action="Pulse" NameClass="RavagerEggRoundup" />
+    <QuestsSorted Action="TurnIn" NameClass="VoidwalkersGoneWild" />
+    <QuestsSorted Action="TurnIn" NameClass="RavagerEggRoundup" />
+    <QuestsSorted Action="PickUp" NameClass="HelboartheOtherWhiteMeat" />
+    <QuestsSorted Action="RunCode" NameClass="		Thread t = new Thread(() =&gt;&#xD;&#xA;{&#xD;&#xA;&#xD;&#xA;//purify hellboar meat for quest helbor the other white meat&#xD;&#xA;&#xD;&#xA;&#xD;&#xA; uint itemId = 23268;&#xD;&#xA; int questId = 9361;&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA; while (robotManager.Products.Products.IsStarted)&#xD;&#xA; {&#xD;&#xA;  if (Conditions.InGameAndConnectedAndAliveAndProductStartedNotInPause)&#xD;&#xA;  {&#xD;&#xA;   if (!Quest.HasQuest(questId))&#xD;&#xA;    break;&#xD;&#xA;   &#xD;&#xA;   &#xD;&#xA;   foreach (WoWItem item in Bag.GetBagItem())&#xD;&#xA;				{&#xD;&#xA;				&#xD;&#xA;				if (item.GetItemInfo.ItemName == &quot;Tainted Helboar Meat&quot;)&#xD;&#xA;						{&#xD;&#xA;							&#xD;&#xA;						robotManager.Helpful.Keyboard.DownKey(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, System.Windows.Forms.Keys.ShiftKey);&#xD;&#xA;							Thread.Sleep(robotManager.Helpful.Others.Random(50, 150));&#xD;&#xA;							ItemsManager.UseItem(itemId);&#xD;&#xA;							Thread.Sleep(robotManager.Helpful.Others.Random(50, 150));&#xD;&#xA;							robotManager.Helpful.Keyboard.UpKey(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, System.Windows.Forms.Keys.ShiftKey);&#xD;&#xA;							Thread.Sleep(robotManager.Helpful.Others.Random(50, 150));	&#xD;&#xA;							&#xD;&#xA;						}&#xD;&#xA;				&#xD;&#xA;				}&#xD;&#xA;&#xD;&#xA;   &#xD;&#xA;&#xD;&#xA;  }&#xD;&#xA;  Thread.Sleep(500);&#xD;&#xA; }&#xD;&#xA;});&#xD;&#xA;t.Start();" />
+    <QuestsSorted Action="Pulse" NameClass="HelboartheOtherWhiteMeat" />
+    <QuestsSorted Action="TurnIn" NameClass="HelboartheOtherWhiteMeat" />
+    <QuestsSorted Action="PickUp" NameClass="SmoothasButter" />
+    <QuestsSorted Action="Pulse" NameClass="SmoothasButter" />
+    <QuestsSorted Action="TurnIn" NameClass="SmoothasButter" />
+    <QuestsSorted Action="TurnIn" NameClass="HelpingtheCenarionPost" />
+    <QuestsSorted Action="PickUp" NameClass="DemonicContamination" />
+    <QuestsSorted Action="PickUp" NameClass="KeepThornfangHillClear" />
+    <QuestsSorted Action="Pulse" NameClass="DemonicContamination" />
+    <QuestsSorted Action="TurnIn" NameClass="DemonicContamination" />
+    <QuestsSorted Action="PickUp" NameClass="TestingtheAntidote" />
+    <QuestsSorted Action="Pulse" NameClass="KeepThornfangHillClear" />
+    <QuestsSorted Action="TurnIn" NameClass="KeepThornfangHillClear" />
+    <QuestsSorted Action="RunCode" NameClass="Thread t = new Thread(() =&gt;&#xD;&#xA;{&#xD;&#xA;              //Birds of a Feather Quest&#xD;&#xA;             //Use Cage if Female Bird is Targeted&#xD;&#xA;&#xD;&#xA; uint itemId = 23337;     //Cenarion Antidote&#xD;&#xA; int questId = 10255;    //Testing the Antidote&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA; while (robotManager.Products.Products.IsStarted)&#xD;&#xA; {&#xD;&#xA;  if (Conditions.InGameAndConnectedAndAliveAndProductStartedNotInPause)&#xD;&#xA;  {&#xD;&#xA;   if (!Quest.HasQuest(questId))&#xD;&#xA;    break;&#xD;&#xA;   if (ObjectManager.Target.IsValid &amp;&amp; ObjectManager.Target.IsAlive &amp;&amp; ObjectManager.Target.Name ==&quot;Hulking Helboar&quot; )&#xD;&#xA;   {&#xD;&#xA;    ItemsManager.UseItem(itemId);&#xD;&#xA;   }&#xD;&#xA;  }&#xD;&#xA;  Thread.Sleep(500);&#xD;&#xA; }&#xD;&#xA;});&#xD;&#xA;t.Start();&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;// ObjectManager.Target.HealthPercent &lt;= 25" />
+    <QuestsSorted Action="Pulse" NameClass="TestingtheAntidote" />
+    <QuestsSorted Action="TurnIn" NameClass="TestingtheAntidote" />
+    <QuestsSorted Action="Pulse" NameClass="SourceoftheCorruption" />
+    <QuestsSorted Action="TurnIn" NameClass="SourceoftheCorruption" />
+    <QuestsSorted Action="RunLuaCode" NameClass="for i=1,GetNumQuestLogEntries() do&#xD;&#xA;	SelectQuestLogEntry(i);&#xD;&#xA;	SetAbandonQuest();&#xD;&#xA;	AbandonQuest();&#xD;&#xA;end" />
+    <QuestsSorted Action="MessageBox" NameClass="Finished HELLFIRE PENINSULA quests!&#xD;&#xA;(Quests skipped that cause lots of deaths.)" />
+    <QuestsSorted Action="StopBot" NameClass="" />
+    <QuestsSorted Action="None" NameClass="//  ObjectManager.Me.Level &gt;= 61&#xD;&#xA;// If level greaterthan or equal to 61&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//wManager.Wow.Helpers.ItemsManager.GetItemCountById(29588) == 1&#xD;&#xA;//If you have certain number of items&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;// ObjectManager.Target.HealthPercent &lt;= 25&#xD;&#xA;//Target health is 25% or less&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//wManager.Wow.Bot.Tasks.GoToTask.ToPosition(new Vector3(-960.1185f, 2329.546f, -0.5554212f));&#xD;&#xA;//Move char to a spot in the world&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//wManager.Wow.Helpers.Usefuls.SubMapZoneName == &quot;Ruins of Lordaeron&quot;;&#xD;&#xA;//use to check if your in an a named area of a map&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//wManager.Wow.Helpers.Usefuls.MapZoneName == &quot;Elwynn Forest&quot;&#xD;&#xA;// map zone like hellfire the whole zone&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//ObjectManager.Me.HaveBuff(&quot;Travel Form&quot;)&#xD;&#xA;// check if have buff&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;//wManager.Wow.Bot.Tasks.MountTask.DismountMount(false, false, 100);&#xD;&#xA;//dismount&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" />
+  </QuestsSorted>
+  <NpcQuest>
+    <NPCQuest Id="19255" Name="General Krakork" GameObject="false">
+      <PickUpQuests>
+        <int>10291</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10289</int>
+      </TurnInQuests>
+      <Position X="212.4941" Y="2653.686" Z="88.02062" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="21283" Name="Megzeg Nukklebust" GameObject="false">
+      <PickUpQuests>
+        <int>10086</int>
+        <int>10087</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10086</int>
+        <int>10087</int>
+      </TurnInQuests>
+      <Position X="145.446" Y="2690.01" Z="85.55325" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="21256" Name="Vurtok Axebreaker" GameObject="false">
+      <PickUpQuests>
+        <int>10450</int>
+        <int>10449</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10450</int>
+      </TurnInQuests>
+      <Position X="228.036" Y="2692.46" Z="90.7036" />
+    </NPCQuest>
+    <NPCQuest Id="19256" Name="Sergeant Shatterskull" GameObject="false">
+      <PickUpQuests>
+        <int>10123</int>
+        <int>10124</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10123</int>
+        <int>10121</int>
+      </TurnInQuests>
+      <Position X="60.05984" Y="2536.324" Z="64.28415" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3230" Name="Nazgrel" GameObject="false">
+      <PickUpQuests>
+        <int>10121</int>
+        <int>9400</int>
+        <int>10390</int>
+        <int>10391</int>
+        <int>10392</int>
+        <int>9405</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10291</int>
+        <int>10388</int>
+        <int>10390</int>
+        <int>10391</int>
+        <int>10392</int>
+        <int>9401</int>
+      </TurnInQuests>
+      <Position X="242.997" Y="2698.2" Z="89.75924" />
+    </NPCQuest>
+    <NPCQuest Id="21257" Name="Apothecary Zelana" GameObject="false">
+      <PickUpQuests>
+        <int>10242</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10449</int>
+      </TurnInQuests>
+      <Position X="36.5121" Y="2121.97" Z="126.7567" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19273" Name="Forward Commander To'arch" GameObject="false">
+      <PickUpQuests>
+        <int>10208</int>
+        <int>10129</int>
+        <int>10162</int>
+        <int>10388</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10124</int>
+        <int>10208</int>
+        <int>10129</int>
+        <int>10162</int>
+      </TurnInQuests>
+      <Position X="-19.8447" Y="2136.61" Z="113.944" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19401" Name="Wing Commander Brack" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests />
+      <Position X="-24.1035" Y="2125.86" Z="112.693" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="21279" Name="Apothecary Albreck" GameObject="false">
+      <PickUpQuests>
+        <int>10538</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10242</int>
+        <int>10538</int>
+      </TurnInQuests>
+      <Position X="-1334.896" Y="2381.771" Z="88.96496" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16858" Name="Grelag" GameObject="false">
+      <PickUpQuests>
+        <int>9345</int>
+        <int>10213</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9345</int>
+      </TurnInQuests>
+      <Position X="-1331.18" Y="2392.76" Z="88.96495" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19682" Name="Emissary Mordiba" GameObject="false">
+      <PickUpQuests>
+        <int>10220</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10220</int>
+      </TurnInQuests>
+      <Position X="-1332.54" Y="2348.94" Z="88.95537" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19683" Name="Ogath the Mad" GameObject="false">
+      <PickUpQuests>
+        <int>10278</int>
+        <int>10294</int>
+        <int>10295</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10278</int>
+        <int>10294</int>
+        <int>10295</int>
+      </TurnInQuests>
+      <Position X="-1326.43" Y="2344.15" Z="88.95504" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="185166" Name="Wanted Poster" GameObject="true">
+      <PickUpQuests>
+        <int>10809</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="-1294.54" Y="2377.68" Z="81.524" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19736" Name="Althen the Historian" GameObject="false">
+      <PickUpQuests>
+        <int>10230</int>
+        <int>10250</int>
+        <int>10258</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10229</int>
+        <int>10230</int>
+        <int>10250</int>
+      </TurnInQuests>
+      <Position X="-1335.32" Y="2351.09" Z="88.95524" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19937" Name="Commander Hogarth" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>10258</int>
+      </TurnInQuests>
+      <Position X="-1183.11" Y="2599.94" Z="30.58841" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16915" Name="Foreman Razelcraz" GameObject="false">
+      <PickUpQuests>
+        <int>10236</int>
+        <int>10238</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10236</int>
+        <int>10238</int>
+      </TurnInQuests>
+      <Position X="430.101" Y="2886.57" Z="52.2309" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16577" Name="Martik Tor'seldori" GameObject="false">
+      <PickUpQuests>
+        <int>9498</int>
+        <int>9499</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="134.006" Y="2689.84" Z="85.81046" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="17493" Name="Stone Guard Stok'ton" GameObject="false">
+      <PickUpQuests>
+        <int>9572</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9572</int>
+      </TurnInQuests>
+      <Position X="241.276" Y="2688.98" Z="89.7267" />
+    </NPCQuest>
+    <NPCQuest Id="21175" Name="Magister Bloodhawk" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>10393</int>
+      </TurnInQuests>
+      <Position X="240.444" Y="2692.6" Z="89.74416" />
+    </NPCQuest>
+    <NPCQuest Id="181638" Name="Wanted Poster" GameObject="true">
+      <PickUpQuests>
+        <int>9466</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="-595.363" Y="4091.2" Z="91.8737" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16790" Name="Falconer Drenna Riverwind" GameObject="false">
+      <PickUpQuests>
+        <int>9381</int>
+        <int>9397</int>
+        <int>10442</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9381</int>
+        <int>9397</int>
+      </TurnInQuests>
+      <Position X="-596.363" Y="4108.61" Z="90.842" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16789" Name="Ranger Captain Venn'ren" GameObject="false">
+      <PickUpQuests>
+        <int>9340</int>
+        <int>10103</int>
+        <int>9391</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9499</int>
+        <int>9498</int>
+        <int>9340</int>
+        <int>9391</int>
+      </TurnInQuests>
+      <Position X="-593.242" Y="4068.19" Z="143.2581" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16792" Name="Arcanist Calesthris Dawnstar" GameObject="false">
+      <PickUpQuests>
+        <int>9396</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9396</int>
+      </TurnInQuests>
+      <Position X="-577.381" Y="4142.51" Z="68.10632" />
+    </NPCQuest>
+    <NPCQuest Id="16791" Name="Ryathen the Somber" GameObject="false">
+      <PickUpQuests>
+        <int>9366</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9366</int>
+      </TurnInQuests>
+      <Position X="-569.171" Y="4145.86" Z="68.10351" />
+    </NPCQuest>
+    <NPCQuest Id="16794" Name="Apothecary Azethen" GameObject="false">
+      <PickUpQuests>
+        <int>9387</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9387</int>
+      </TurnInQuests>
+      <Position X="-575.058" Y="4155.6" Z="68.0968" />
+    </NPCQuest>
+    <NPCQuest Id="16793" Name="Magistrix Carinda" GameObject="false">
+      <PickUpQuests>
+        <int>9374</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9374</int>
+      </TurnInQuests>
+      <Position X="-596.007" Y="4177.39" Z="64.89487" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="17062" Name="Fel Orc Corpse" GameObject="false">
+      <PickUpQuests>
+        <int>9401</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9400</int>
+      </TurnInQuests>
+      <Position X="-17.7019" Y="3803.48" Z="94.07992" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16574" Name="Far Seer Regulkut" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>9405</int>
+      </TurnInQuests>
+      <Position X="176.157" Y="2738.78" Z="88.21333" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="22107" Name="Captain Darkhowl" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>10809</int>
+      </TurnInQuests>
+      <Position X="-1319.35" Y="2378.33" Z="88.481" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19367" Name="&quot;Screaming&quot; Screed Luckheed" GameObject="false">
+      <PickUpQuests>
+        <int>10161</int>
+        <int>9351</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10213</int>
+        <int>10161</int>
+        <int>9351</int>
+      </TurnInQuests>
+      <Position X="-1096.86" Y="3001.19" Z="8.195005" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="19344" Name="Legassi" GameObject="false">
+      <PickUpQuests>
+        <int>9349</int>
+        <int>9361</int>
+        <int>9356</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>9349</int>
+        <int>9361</int>
+        <int>9356</int>
+      </TurnInQuests>
+      <Position X="-1095.95" Y="2996.35" Z="8.190318" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16991" Name="Thiah Redmane" GameObject="false">
+      <PickUpQuests>
+        <int>9372</int>
+        <int>10255</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10442</int>
+        <int>9372</int>
+        <int>10255</int>
+      </TurnInQuests>
+      <Position X="-312.485" Y="4728.77" Z="17.22927" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="16888" Name="Mahuram Stouthoof" GameObject="false">
+      <PickUpQuests>
+        <int>10159</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>10159</int>
+      </TurnInQuests>
+      <Position X="-314.8238" Y="4730.2" Z="17.26131" Type="Flying" />
+    </NPCQuest>
+  </NpcQuest>
+  <Npc>
+    <Npc>
+      <Position X="167.278" Y="2795.67" Z="113.3652" Type="Flying" />
+      <Entry>16583</Entry>
+      <Name>Rohok</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Repair</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="179.118" Y="2705.54" Z="88.869" Type="Flying" />
+      <Entry>17585</Entry>
+      <Name>Quartermaster Urgronn</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Vendor</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="192.139" Y="2609.65" Z="87.2836" Type="Flying" />
+      <Entry>16602</Entry>
+      <Name>Floyd Pinkus</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Vendor</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="-1319.3" Y="2351.02" Z="88.95506" Type="Flying" />
+      <Entry>19559</Entry>
+      <Name>Mondul</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Vendor</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="-1329.01" Y="2397.58" Z="89.07494" Type="Flying" />
+      <Entry>19561</Entry>
+      <Name>Hagash the Blind</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Repair</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="-18.835" Y="2140.58" Z="114.069" Type="Flying" />
+      <Entry>19315</Entry>
+      <Name>Supply Officer Isabel</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Repair</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="-18.835" Y="2140.58" Z="114.069" Type="Flying" />
+      <Entry>19315</Entry>
+      <Name>Supply Officer Isabel</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Vendor</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="172.726" Y="2623.06" Z="86.8361" Type="Flying" />
+      <Entry>181381</Entry>
+      <Name>Mailbox</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Mailbox</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="-587.469" Y="4171.82" Z="65.99735" Type="Flying" />
+      <Entry>18997</Entry>
+      <Name>Fallesh Sunfallow</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Repair</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+    <Npc>
+      <Position X="-613.815" Y="4081.38" Z="91.56623" Type="Flying" />
+      <Entry>17277</Entry>
+      <Name>Provisioner Valine</Name>
+      <GossipOption>-1</GossipOption>
+      <Active>true</Active>
+      <Faction>Neutral</Faction>
+      <Type>Vendor</Type>
+      <VendorItemClass>Food</VendorItemClass>
+      <ContinentId>Expansion01</ContinentId>
+    </Npc>
+  </Npc>
+  <EasyQuests>
+    <EasyQuest>
+      <Name>Grind to 60</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="118.2188" Y="2906.661" Z="34.67052" />
+          <Vector3 X="417.6133" Y="3014.662" Z="19.15768" />
+          <Vector3 X="479.3516" Y="3087.096" Z="23.18512" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16863</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>59</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Grind to 61</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-423.3281" Y="4026.098" Z="76.41388" />
+          <Vector3 X="-380.5504" Y="4016.189" Z="88.86263" />
+          <Vector3 X="-100.9727" Y="4166.152" Z="82.42751" />
+          <Vector3 X="-113.9883" Y="4217.8" Z="85.64073" />
+          <Vector3 X="-76.85742" Y="4280.743" Z="82.11513" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16973</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>60</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Journey to Thrallmar</Name>
+      <QuestId>
+        <int>10289</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="197.1354" Y="2645.865" Z="88.34054" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>19255</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Report to Nazgrel</Name>
+      <QuestId>
+        <int>10291</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots />
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget />
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>I Work... For the Horde!</Name>
+      <QuestId>
+        <int>10086</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-100.9947" Y="2618.545" Z="51.53895" />
+          <Vector3 X="-123.1531" Y="2512.76" Z="46.88673" />
+          <Vector3 X="-120.6177" Y="2440.545" Z="49.70097" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>182937</int>
+          <int>182936</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Bonechewer Blood</Name>
+      <QuestId>
+        <int>10450</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-138.3151" Y="2608.784" Z="44.6641" />
+        </HotSpots>
+        <EntryTarget>
+          <int>18952</int>
+          <int>19701</int>
+          <int>16876</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Felspark Ravine</Name>
+      <QuestId>
+        <int>10123</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="163.7436" Y="2293.026" Z="49.92958" />
+        </HotSpots>
+        <EntryTarget>
+          <int>19434</int>
+          <int>19261</int>
+          <int>18978</int>
+          <int>19136</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Apothecary Zelana</Name>
+      <QuestId>
+        <int>10449</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="25.5503" Y="2131.128" Z="124.7147" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>21257</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Burn It Up... For the Horde!</Name>
+      <QuestId>
+        <int>10087</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-313.4174" Y="2368.704" Z="47.43579" />
+          <Vector3 X="-363.8861" Y="2682.033" Z="38.8404" />
+          <Vector3 X="-327.3076" Y="2413.995" Z="42.2376" />
+        </HotSpots>
+        <EntryIdTarget />
+        <ItemId>27479</ItemId>
+        <Range>10</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Eradicate the Burning Legion</Name>
+      <QuestId>
+        <int>10121</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="55.19464" Y="2546.07" Z="64.73735" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>19256</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Forward Base: Reaver's Fall</Name>
+      <QuestId>
+        <int>10124</int>
+      </QuestId>
+      <QuestType>UseScriptOn</QuestType>
+      <QuestClass xsi:type="UseScriptOnEasyQuestClass">
+        <IsCSharpCode>false</IsCSharpCode>
+        <HotSpots>
+          <Vector3 X="-18.61825" Y="2155.438" Z="112.9312" />
+        </HotSpots>
+        <EntryIdTarget>
+          <int>19273</int>
+        </EntryIdTarget>
+        <Script />
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Disrupt Their Reinforcements</Name>
+      <QuestId>
+        <int>10208</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-85.43979" Y="1882.145" Z="74.89944" />
+          <Vector3 X="148.1122" Y="1718.355" Z="38.25842" />
+          <Vector3 X="-102.1744" Y="1891.464" Z="77.81989" />
+          <Vector3 X="-66.03076" Y="1869.001" Z="69.49477" />
+          <Vector3 X="126.237" Y="1718.841" Z="40.94676" />
+          <Vector3 X="171.3775" Y="1719.232" Z="34.76689" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>184290</int>
+          <int>184289</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Scripted: Disrupt Their Reinforcements</Name>
+      <QuestId>
+        <int>10208</int>
+      </QuestId>
+      <QuestType>UseScriptOn</QuestType>
+      <QuestClass xsi:type="UseScriptOnEasyQuestClass">
+        <IsCSharpCode>true</IsCSharpCode>
+        <HotSpots>
+          <Vector3 X="-102.8597" Y="1893.18" Z="77.99164" />
+          <Vector3 X="-84.65293" Y="1881.608" Z="74.71461" />
+          <Vector3 X="-66.63309" Y="1869.771" Z="69.67554" />
+          <Vector3 X="127.2037" Y="1718.052" Z="40.73657" />
+          <Vector3 X="146" Y="1717.427" Z="38.36948" />
+          <Vector3 X="168.5028" Y="1718.565" Z="34.82639" />
+        </HotSpots>
+        <EntryIdTarget />
+        <Script>
+
+//Portal Xilus ID:#184290
+//Portal Kruul ID:#184289
+
+//Demonic Rune Stone ID:#28513
+//Need 4 for each portal, can only have 4 at a time.
+
+//-------------------------------------------------------------------------------------
+//Variables
+//-------------------------------------------------------------------------------------
+var posPortalXilus = new Vector3(-84.86414f, 1881.495f, 74.7514f);
+var posPortalKruul = new Vector3(147.8284f, 1717.506f, 38.15772f);
+
+int clickonPortalXilus = 184290; // the object ID
+int clickonPortalKruul = 184289; // the object ID
+
+
+//-------------------------------------------------------------------------------------
+//Quest Objective 1:
+//-------------------------------------------------------------------------------------
+        
+if (!Quest.IsObjectiveComplete(1, 10208) &amp;&amp; ItemsManager.GetItemCountById(28513) == 4)
+  {
+
+   wManager.Wow.Bot.Tasks.GoToTask.ToPosition(new Vector3(posPortalXilus));
+if(ObjectManager.Me.HaveBuff("Travel Form"))
+                    {
+                        Lua.LuaDoString("CastSpellByName('Travel Form')");
+                    }
+                    else
+                    {
+                        wManager.Wow.Bot.Tasks.MountTask.DismountMount(false, false, 100);
+                    }
+   wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(posPortalXilus, clickonPortalXilus);
+            
+   Thread.Sleep(Usefuls.Latency + 10000);
+  }
+
+  
+//-------------------------------------------------------------------------------------
+//Quest Objective 2:
+//-------------------------------------------------------------------------------------
+
+if (!Quest.IsObjectiveComplete(2, 10208) &amp;&amp; ItemsManager.GetItemCountById(28513) == 4)
+  {
+  
+   wManager.Wow.Bot.Tasks.GoToTask.ToPosition(new Vector3(posPortalKruul));
+if(ObjectManager.Me.HaveBuff("Travel Form"))
+                    {
+                        Lua.LuaDoString("CastSpellByName('Travel Form')");
+                    }
+                    else
+                    {
+                        wManager.Wow.Bot.Tasks.MountTask.DismountMount(false, false, 100);
+                    }
+   wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithGameObject(posPortalKruul, clickonPortalKruul);
+            
+   Thread.Sleep(Usefuls.Latency + 10000);
+  }
+
+
+
+//Move to Postion
+//GoToTask.ToPosition(posPortalXilus);
+</Script>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Spinebreaker Post</Name>
+      <QuestId>
+        <int>10242</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots />
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>21279</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Boiling Blood</Name>
+      <QuestId>
+        <int>10538</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots />
+        <EntryIdTarget />
+        <ItemId>0</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Preparing the Salve</Name>
+      <QuestId>
+        <int>9345</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-818.4084" Y="1848.338" Z="83.19079" />
+          <Vector3 X="-870.2181" Y="1860.746" Z="80.03081" />
+          <Vector3 X="-838.0729" Y="1921.019" Z="55.99269" />
+          <Vector3 X="-843.5336" Y="1935.637" Z="62.65492" />
+          <Vector3 X="-833.6459" Y="1954.506" Z="47.38749" />
+          <Vector3 X="-858.9622" Y="2057.045" Z="32.19617" />
+          <Vector3 X="-882.5767" Y="2107.821" Z="21.00573" />
+          <Vector3 X="-937.6838" Y="2103.967" Z="24.80919" />
+          <Vector3 X="-1138.487" Y="2196.247" Z="42.63736" />
+          <Vector3 X="-976.527" Y="2142.204" Z="24.89244" />
+          <Vector3 X="-856.3907" Y="2222.701" Z="6.833404" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>181372</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Make Them Listen</Name>
+      <QuestId>
+        <int>10220</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1226.81" Y="2517.43" Z="45.61232" />
+          <Vector3 X="-1193.39" Y="2514.13" Z="52.14977" />
+          <Vector3 X="-1157.93" Y="2530.1" Z="50.01173" />
+          <Vector3 X="-1096.672" Y="2593.555" Z="33.85858" />
+          <Vector3 X="-1206.211" Y="2639.025" Z="13.10317" />
+          <Vector3 X="-1265.766" Y="2685.92" Z="-1.044153" />
+          <Vector3 X="-1269.75" Y="2737.23" Z="-16.502" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16904</int>
+          <int>16906</int>
+          <int>16905</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Warp Rifts</Name>
+      <QuestId>
+        <int>10278</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1338.978" Y="2974.755" Z="0.9672689" />
+        </HotSpots>
+        <EntryIdTarget />
+        <ItemId>29027</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>WANTED: Worg Master Kruush</Name>
+      <QuestId>
+        <int>10809</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1053.803" Y="2003.713" Z="66.98293" />
+        </HotSpots>
+        <EntryTarget>
+          <int>19442</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Decipher the Tome</Name>
+      <QuestId>
+        <int>10229</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>true</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>28552</PickUpQuestOnItemID>
+      <Comment>Dropped from mobs killed during 'Make Them Listen' quest.</Comment>
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Void Ridge</Name>
+      <QuestId>
+        <int>10294</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-218.4921" Y="1870.192" Z="92.77525" />
+          <Vector3 X="-211.9949" Y="1732.484" Z="62.92722" />
+          <Vector3 X="-245.3423" Y="1701.667" Z="59.34311" />
+          <Vector3 X="-362.3737" Y="1691.066" Z="53.46455" />
+          <Vector3 X="-719.6586" Y="1604.347" Z="48.72932" />
+          <Vector3 X="-793.5376" Y="1598.959" Z="54.95137" />
+          <Vector3 X="-827.1836" Y="1523.837" Z="39.87483" />
+          <Vector3 X="-913.5695" Y="1518.018" Z="39.04425" />
+          <Vector3 X="-1014.174" Y="1513.215" Z="44.52707" />
+          <Vector3 X="-1089.042" Y="1475.188" Z="34.40025" />
+          <Vector3 X="-1177.737" Y="1458.034" Z="35.68676" />
+          <Vector3 X="-754.9137" Y="1522.079" Z="30.23741" />
+        </HotSpots>
+        <EntryTarget>
+          <int>17014</int>
+          <int>19527</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Battle Horn</Name>
+      <QuestId>
+        <int>10230</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1402.63" Y="2710.049" Z="-28.0866" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16978</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Bloody Vengeance</Name>
+      <QuestId>
+        <int>10250</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1193.206" Y="2263.733" Z="47.07055" />
+        </HotSpots>
+        <EntryIdTarget />
+        <ItemId>28651</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Honor the Fallen</Name>
+      <QuestId>
+        <int>10258</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1183.11" Y="2599.94" Z="30.58841" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>19937</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Outland Sucks!</Name>
+      <QuestId>
+        <int>10236</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="265.9751" Y="3016.146" Z="-0.5709587" />
+          <Vector3 X="184.8069" Y="3005.599" Z="-1.191356" />
+          <Vector3 X="193.0672" Y="3061.873" Z="0.3844434" />
+          <Vector3 X="171.0747" Y="3039.399" Z="-1.220388" />
+          <Vector3 X="101.1299" Y="3041.062" Z="-1.222534" />
+          <Vector3 X="74.77003" Y="3040.887" Z="-0.6228713" />
+          <Vector3 X="47.62961" Y="3079.156" Z="-1.221513" />
+          <Vector3 X="27.31066" Y="3129.391" Z="-0.373929" />
+          <Vector3 X="21.95596" Y="3099.604" Z="-1.104926" />
+          <Vector3 X="20.43595" Y="3075.409" Z="-1.18825" />
+          <Vector3 X="-14.03745" Y="3096.323" Z="-0.1325505" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>183934</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>How to Serve Goblins</Name>
+      <QuestId>
+        <int>10238</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-68.8173" Y="3145.55" Z="-4.574891" />
+          <Vector3 X="-121.322" Y="3084.839" Z="2.564393" />
+          <Vector3 X="76.084" Y="3204.25" Z="32.107" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>183941</int>
+          <int>183940</int>
+          <int>183936</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Falcon Watch</Name>
+      <QuestId>
+        <int>9499</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-593.242" Y="4068.19" Z="143.2581" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget />
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Assassin</Name>
+      <QuestId>
+        <int>9400</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-17.7019" Y="3803.48" Z="94.07992" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>17062</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Weaken the Ramparts</Name>
+      <QuestId>
+        <int>9572</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment>DUNGEON QUEST! SKIP!</Comment>
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Mission: Gateways Murketh and Shaadraz</Name>
+      <QuestId>
+        <int>10129</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-300.8439" Y="1525.554" Z="37.56489" />
+          <Vector3 X="-148.7876" Y="1512.847" Z="33.4298" />
+        </HotSpots>
+        <EntryIdTarget>
+          <int>183350</int>
+          <int>183351</int>
+        </EntryIdTarget>
+        <ItemId>28038</ItemId>
+        <Range>20</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Mission: The Abyssal Shelf</Name>
+      <QuestId>
+        <int>10162</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>true</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Return to Thrallmar</Name>
+      <QuestId>
+        <int>10388</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots />
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget />
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Forge Camp: Mageddon</Name>
+      <QuestId>
+        <int>10390</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="413.1046" Y="2244.887" Z="116.054" />
+          <Vector3 X="371.994" Y="2232.774" Z="119.1736" />
+          <Vector3 X="437.1106" Y="2198.932" Z="116.2531" />
+          <Vector3 X="459.99" Y="2159.648" Z="119.1589" />
+          <Vector3 X="390.643" Y="2147.72" Z="117.7376" />
+          <Vector3 X="195.305" Y="2438.884" Z="56.78323" />
+          <Vector3 X="304.0083" Y="2329.124" Z="70.09366" />
+          <Vector3 X="349.9452" Y="2295.513" Z="84.05926" />
+          <Vector3 X="427.467" Y="2281.83" Z="113.4672" />
+        </HotSpots>
+        <EntryTarget>
+          <int>20798</int>
+          <int>16947</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Vile Plans</Name>
+      <QuestId>
+        <int>10393</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>true</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>29590</PickUpQuestOnItemID>
+      <Comment>Starts from Item dropped during 'forge cam: mageddon' quest</Comment>
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Cannons of Rage</Name>
+      <QuestId>
+        <int>10391</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="362.32" Y="2264.65" Z="119.0113" />
+          <Vector3 X="411.781" Y="2259.49" Z="116.7841" />
+          <Vector3 X="328.385" Y="2229.36" Z="117.9964" />
+          <Vector3 X="377.161" Y="2102.73" Z="117.6375" />
+        </HotSpots>
+        <EntryTarget>
+          <int>22461</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Doorway to the Abyss</Name>
+      <QuestId>
+        <int>10392</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>WANTED: Blacktalon the Savage</Name>
+      <QuestId>
+        <int>9466</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Trueflight Arrows</Name>
+      <QuestId>
+        <int>9381</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-444.8264" Y="4048.175" Z="69.26781" />
+          <Vector3 X="-375.3535" Y="3980.35" Z="85.86674" />
+          <Vector3 X="-118.0996" Y="4154.7" Z="83.65742" />
+          <Vector3 X="-118.7682" Y="4189.861" Z="84.21933" />
+          <Vector3 X="-102.3418" Y="4268.268" Z="80.7505" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16973</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Helping the Cenarion Post</Name>
+      <QuestId>
+        <int>10442</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-312.485" Y="4728.77" Z="17.22927" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>16991</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Great Fissure</Name>
+      <QuestId>
+        <int>9340</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-697.4063" Y="4022.244" Z="29.72522" />
+          <Vector3 X="-586.1094" Y="3988.334" Z="29.91968" />
+          <Vector3 X="-645.0879" Y="3922.593" Z="30.28462" />
+          <Vector3 X="-605.7751" Y="3790.824" Z="29.95924" />
+          <Vector3 X="-722.017" Y="3782.26" Z="21.684" />
+          <Vector3 X="-693.0337" Y="3666.455" Z="29.09658" />
+          <Vector3 X="-721.0643" Y="3797.855" Z="22.78712" />
+          <Vector3 X="-556.4512" Y="3850.687" Z="29.37318" />
+          <Vector3 X="-610.0176" Y="3752.214" Z="37.69862" />
+          <Vector3 X="-562.2688" Y="3669.927" Z="38.54173" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16927</int>
+          <int>16929</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Report to Zurai</Name>
+      <QuestId>
+        <int>10103</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Magic of the Arakkoa</Name>
+      <QuestId>
+        <int>9396</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-951.6719" Y="4205.719" Z="28.77454" />
+          <Vector3 X="-1068.621" Y="4199.881" Z="15.99877" />
+          <Vector3 X="-1119.372" Y="4260.127" Z="14.20109" />
+          <Vector3 X="-1216.711" Y="4192.294" Z="36.98224" />
+          <Vector3 X="-1248.313" Y="4125.047" Z="65.03671" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16967</int>
+          <int>16966</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>In Need of Felblood</Name>
+      <QuestId>
+        <int>9366</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="48.03349" Y="3481.967" Z="60.04325" />
+          <Vector3 X="110.8388" Y="3524.939" Z="60.7696" />
+          <Vector3 X="209.4588" Y="3432.25" Z="65.04462" />
+          <Vector3 X="284.1719" Y="3491.85" Z="65.16171" />
+          <Vector3 X="285.2149" Y="3428.235" Z="66.92659" />
+          <Vector3 X="120.0784" Y="3621.809" Z="77.09269" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16951</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Source of the Corruption</Name>
+      <QuestId>
+        <int>9387</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-448.2129" Y="4754.59" Z="20.54354" />
+          <Vector3 X="-492.5605" Y="4773.941" Z="27.89871" />
+          <Vector3 X="-496.1016" Y="4829.561" Z="30.95596" />
+          <Vector3 X="-451.3764" Y="4877.24" Z="31.36236" />
+          <Vector3 X="-519.6738" Y="4867.475" Z="33.6277" />
+        </HotSpots>
+        <EntryTarget>
+          <int>17058</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Arelion's Journal</Name>
+      <QuestId>
+        <int>9374</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="199.5733" Y="3472.166" Z="63.51281" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>184115</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Falcon Watch9498</Name>
+      <QuestId>
+        <int>9498</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-593.242" Y="4068.19" Z="143.2581" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>16789</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Marking the Path</Name>
+      <QuestId>
+        <int>9391</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-606.6406" Y="3992.082" Z="32.15828" />
+          <Vector3 X="-584.1521" Y="3782.212" Z="31.51426" />
+          <Vector3 X="-767.1508" Y="3675.651" Z="30.10864" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>181581</int>
+          <int>181580</int>
+          <int>181579</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>A Strange Weapon</Name>
+      <QuestId>
+        <int>9401</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Birds of a Feather</Name>
+      <QuestId>
+        <int>9397</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1112.506" Y="4185.527" Z="17.86664" />
+          <Vector3 X="-1099.129" Y="4251.727" Z="16.51554" />
+          <Vector3 X="-1151.635" Y="4264.056" Z="13.91021" />
+          <Vector3 X="-1139.285" Y="4242.991" Z="14.22002" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>181582</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Warchief's Mandate</Name>
+      <QuestId>
+        <int>9405</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="176.157" Y="2738.78" Z="88.21333" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>16574</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>From the Abyss</Name>
+      <QuestId>
+        <int>10295</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1235.799" Y="1358.134" Z="5.980601" />
+        </HotSpots>
+        <EntryIdTarget />
+        <ItemId>29226</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Investigate the Crash</Name>
+      <QuestId>
+        <int>10213</int>
+      </QuestId>
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1096.86" Y="3001.19" Z="8.195005" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>19367</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>In Case of Emergency...</Name>
+      <QuestId>
+        <int>10161</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-994.322" Y="3024.671" Z="13.93005" />
+          <Vector3 X="-1051.937" Y="2748.235" Z="-6.352261" />
+          <Vector3 X="-1053.089" Y="2711.336" Z="-2.466748" />
+          <Vector3 X="-1050.069" Y="2683.371" Z="-0.531018" />
+          <Vector3 X="-1044.139" Y="2671.813" Z="-0.08748128" />
+          <Vector3 X="-1053.522" Y="2587.648" Z="8.676241" />
+          <Vector3 X="-1047.276" Y="2551.632" Z="10.9238" />
+          <Vector3 X="-980.0681" Y="2524.902" Z="5.740068" />
+          <Vector3 X="-961.3254" Y="2494.386" Z="6.144765" />
+          <Vector3 X="-955.8597" Y="2445.312" Z="1.763149" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>183396</int>
+          <int>183397</int>
+          <int>183395</int>
+          <int>183394</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Ravager Egg Roundup</Name>
+      <QuestId>
+        <int>9349</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1457.864" Y="3412.906" Z="33.46923" />
+          <Vector3 X="-1486.627" Y="3446.044" Z="30.534" />
+          <Vector3 X="-1516.836" Y="3456.204" Z="24.68869" />
+          <Vector3 X="-1541.934" Y="3486.226" Z="25.09703" />
+          <Vector3 X="-1510.191" Y="3522.091" Z="44.33512" />
+          <Vector3 X="-1520.251" Y="3578.008" Z="41.76892" />
+          <Vector3 X="-1576.059" Y="3559.038" Z="29.00991" />
+          <Vector3 X="-1569.057" Y="3604.767" Z="34.6235" />
+          <Vector3 X="-1586.504" Y="3688.406" Z="39.31123" />
+          <Vector3 X="-1627.097" Y="3791.023" Z="36.01436" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>181385</int>
+        </EntryIdObjects>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Voidwalkers Gone Wild</Name>
+      <QuestId>
+        <int>9351</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1378.686" Y="3145.804" Z="25.87823" />
+          <Vector3 X="-1401.129" Y="3199.592" Z="27.05815" />
+          <Vector3 X="-1317.324" Y="3139.006" Z="34.09731" />
+          <Vector3 X="-1442.906" Y="3145.744" Z="4.351669" />
+          <Vector3 X="-1376.65" Y="3275.06" Z="40.9655" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16975</int>
+          <int>16974</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Helboar, the Other White Meat</Name>
+      <QuestId>
+        <int>9361</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1074.568" Y="2916.562" Z="-1.391823" />
+          <Vector3 X="-1003.994" Y="2916.477" Z="1.582464" />
+          <Vector3 X="-1130.715" Y="2924.355" Z="-1.816062" />
+          <Vector3 X="-916.1719" Y="2952.171" Z="9.402352" />
+          <Vector3 X="-848.7191" Y="2892.995" Z="9.093739" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16863</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Smooth as Butter</Name>
+      <QuestId>
+        <int>9356</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-989.5001" Y="2614.863" Z="6.184697" />
+          <Vector3 X="-973.1517" Y="2546.581" Z="3.596622" />
+          <Vector3 X="-911.6401" Y="2484.138" Z="4.607645" />
+          <Vector3 X="-851.2324" Y="2521.626" Z="23.74182" />
+          <Vector3 X="-904.4199" Y="2447.763" Z="1.114102" />
+          <Vector3 X="-852.176" Y="2384.703" Z="-4.533514" />
+          <Vector3 X="-789.0156" Y="2362.466" Z="13.59538" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16972</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Demonic Contamination</Name>
+      <QuestId>
+        <int>9372</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-347.2734" Y="4648.743" Z="27.79439" />
+          <Vector3 X="-444.9609" Y="4606.332" Z="41.203" />
+          <Vector3 X="-406.2746" Y="4565.548" Z="39.8581" />
+          <Vector3 X="-471.1335" Y="4442.64" Z="42.94997" />
+          <Vector3 X="-514.1738" Y="4385.517" Z="50.35246" />
+        </HotSpots>
+        <EntryTarget>
+          <int>16880</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Keep Thornfang Hill Clear!</Name>
+      <QuestId>
+        <int>10159</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-314.1621" Y="4891.054" Z="34.5866" />
+          <Vector3 X="-353.0234" Y="4859.684" Z="24.6407" />
+          <Vector3 X="-287.3533" Y="4946.361" Z="47.96798" />
+          <Vector3 X="-177.2383" Y="4919.199" Z="53.21458" />
+          <Vector3 X="-328.0605" Y="5011.014" Z="59.54294" />
+          <Vector3 X="-391.4297" Y="4978.76" Z="42.20881" />
+          <Vector3 X="-302.918" Y="5085.534" Z="78.72873" />
+          <Vector3 X="-210.9102" Y="5053.654" Z="77.86748" />
+        </HotSpots>
+        <EntryTarget>
+          <int>19350</int>
+          <int>19349</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+        <IsHotspots>true</IsHotspots>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Testing the Antidote</Name>
+      <QuestId>
+        <int>10255</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-308.3286" Y="4668.839" Z="21.57917" />
+          <Vector3 X="-374.523" Y="4642.555" Z="30.49949" />
+          <Vector3 X="-399.3284" Y="4512.363" Z="50.18412" />
+          <Vector3 X="-473.748" Y="4498.242" Z="49.15799" />
+        </HotSpots>
+        <EntryIdTarget>
+          <int>16880</int>
+        </EntryIdTarget>
+        <ItemId>23337</ItemId>
+        <Range>1</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+  </EasyQuests>
+  <Script>
+public class MyCustomScript
+{
+    static MyCustomScript()
+    {
+        // You can put here code to run when bot start, you can also add methods and classes.
+    }
+}
+</Script>
+  <OffMeshConnections />
+  <BlacklistNpc>
+    <BlackNpc UniqueId="F13000423F005927" Name="Dread Tactician" />
+    <BlackNpc UniqueId="F130004B6300592C" Name="Deathwhisperer" />
+    <BlackNpc UniqueId="F130004A01148FC3" Name="Pit Commander" />
+  </BlacklistNpc>
+  <BlacklistNpcType>
+    <BlackNpcType TypeId="18733" Name="Fel Reaver" />
+  </BlacklistNpcType>
+  <Blackspots>
+    <Blackspot X="-224.862015" Y="2688.475" Z="-12.9240417" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-177.841187" Y="2717.70923" Z="2.02239776" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="-208.636856" Y="2330.10059" Z="45.5158577" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-280.358917" Y="2631.06787" Z="-5.734032" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-275.659943" Y="2645.09375" Z="-8.46485" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-171.261627" Y="2440.98755" Z="27.867672" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-207.00444" Y="2434.20923" Z="25.6549873" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-207.029144" Y="2465.52173" Z="20.9912987" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-227.722046" Y="2411.97461" Z="26.786581" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-221.692947" Y="2353.51953" Z="39.5224953" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-218.509689" Y="2309.49951" Z="49.5475121" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-246.171722" Y="2391.64526" Z="31.4697018" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-239.641937" Y="2447.80322" Z="19.270052" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-240.2168" Y="2467.62231" Z="16.0089874" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-240.753616" Y="2486.12964" Z="13.4143887" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-241.155457" Y="2499.984" Z="11.4979134" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-241.54007" Y="2513.24316" Z="9.375157" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-242.12355" Y="2533.35962" Z="6.618809" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-242.571579" Y="2548.80566" Z="4.446077" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-243.007172" Y="2563.82324" Z="1.95609641" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-243.425766" Y="2578.25464" Z="-0.508957744" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-243.85704" Y="2593.12329" Z="-3.09588552" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-244.292389" Y="2608.132" Z="-5.43951464" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-244.727966" Y="2623.14941" Z="-7.81355762" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-245.188675" Y="2639.03271" Z="-10.3711367" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-245.68338" Y="2656.08813" Z="-12.8516874" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-246.190765" Y="2673.58081" Z="-15.6115322" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-246.651733" Y="2689.473" Z="-18.0065937" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-247.091385" Y="2704.63013" Z="-20.4675941" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-247.310913" Y="2712.117" Z="-21.7284622" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-253.354553" Y="2732.03149" Z="-25.4849453" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-256.998718" Y="2749.452" Z="-28.96594" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-213.579544" Y="2717.88525" Z="-14.6025181" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-184.2571" Y="2723.28442" Z="-1.296939" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="-156.105545" Y="2728.2373" Z="13.3259926" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="-288.4847" Y="2672.24658" Z="-11.8946028" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-302.404175" Y="2650.20215" Z="-5.84233761" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="-309.743317" Y="2499.414" Z="29.14858" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="-284.341156" Y="2505.4126" Z="22.6455746" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-202.879868" Y="1067.52136" Z="49.95552" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-211.055817" Y="1108.1051" Z="41.6888657" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-230.82753" Y="1152.57251" Z="41.6400681" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-232.848236" Y="1177.13489" Z="41.7125244" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-234.462387" Y="1196.75549" Z="41.6035461" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-236.00412" Y="1215.49585" Z="35.0860252" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-237.42749" Y="1232.79749" Z="31.1793289" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-238.802078" Y="1249.506" Z="28.3692684" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-240.332352" Y="1268.10693" Z="25.202" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-241.826736" Y="1286.27185" Z="21.8734226" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-243.33252" Y="1304.585" Z="18.8537064" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-245.703278" Y="1319.83813" Z="16.2994118" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-245.241028" Y="1377.03491" Z="10.8315115" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-244.690857" Y="1398.487" Z="11.8170366" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-244.077438" Y="1422.3634" Z="13.4473972" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-243.963364" Y="1426.64307" Z="13.7661133" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-231.026947" Y="1158.80774" Z="41.5815544" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-232.430359" Y="1177.12122" Z="41.7127533" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-233.756134" Y="1194.42175" Z="41.9454155" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Stair of Destiny" />
+    <Blackspot X="-243.840317" Y="1424.34143" Z="13.6100359" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-232.663666" Y="1454.70715" Z="15.0428782" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-222.02182" Y="1495.845" Z="20.0483284" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-215.508621" Y="1528.2334" Z="23.7554379" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="-207.292282" Y="1557.085" Z="26.892683" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; The Path of Glory" />
+    <Blackspot X="435.2772" Y="2278.75122" Z="117.792374" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; Forge Camp: Mageddon" />
+    <Blackspot X="449.760773" Y="2312.7688" Z="124.024323" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="441.1762" Y="2330.111" Z="121.134483" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="433.189545" Y="2346.97681" Z="117.410553" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="424.946716" Y="2364.65625" Z="117.482918" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="418.775146" Y="2377.621" Z="118.047058" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="411.4302" Y="2393.05078" Z="118.354652" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; " />
+    <Blackspot X="405.6703" Y="2405.151" Z="120.303642" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; Forge Camp: Rage" />
+    <Blackspot X="401.849182" Y="2406.48364" Z="119.506348" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; Forge Camp: Rage" />
+    <Blackspot X="386.697083" Y="2411.27954" Z="115.922012" Radius="30" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; Forge Camp: Rage" />
+    <Blackspot X="-1057.52722" Y="2643.52515" Z="8.428317" Radius="10" Continent="Expansion01" TypeArea="POLYAREA_BIGDANGER" Comment="Hellfire Peninsula &gt; Valley of Bones" />
+  </Blackspots>
+</EasyQuestProfile>

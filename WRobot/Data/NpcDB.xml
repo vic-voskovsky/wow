@@ -110,4 +110,312 @@
     <VendorItemClass>Food</VendorItemClass>
     <ContinentId>Kalimdor</ContinentId>
   </Npc>
+  <Npc>
+    <Position X="1692.69" Y="-4412.03" Z="21.66113" />
+    <Entry>3322</Entry>
+    <Name>Kaja</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="1634.23" Y="-4347.62" Z="4.296888" />
+    <Entry>3314</Entry>
+    <Name>Urtharo</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="1750.38" Y="-4320.91" Z="5.910969" Type="Flying" />
+    <Entry>3331</Entry>
+    <Name>Kareth</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="1615.58" Y="-4391.6" Z="10.108" Type="Flying" />
+    <Entry>173221</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="1580.05" Y="-4097.68" Z="36.24123" />
+    <Entry>3349</Entry>
+    <Name>Ukra'nor</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-1013.377" Y="-3452.07" Z="67.88505" Type="Flying" />
+    <Entry>3658</Entry>
+    <Name>Lizzarik</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-982.713" Y="-3680.53" Z="9.554537" />
+    <Entry>3493</Entry>
+    <Name>Grazlix</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-985.328" Y="-3675.99" Z="9.54619" />
+    <Entry>3492</Entry>
+    <Name>Vexspindle</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-919.616" Y="-3683.76" Z="8.155966" />
+    <Entry>3491</Entry>
+    <Name>Ironzar</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14340.6" Y="414.604" Z="6.626963" />
+    <Entry>2839</Entry>
+    <Name>Haren Kanmae</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14368.6" Y="416.774" Z="6.626712" />
+    <Entry>2840</Entry>
+    <Name>Kizz Bluntstrike</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14416.8" Y="524.1" Z="7.582872" Type="Flying" />
+    <Entry>15681</Entry>
+    <Name>Auctioneer O'reely</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14379.1" Y="412.672" Z="6.626944" />
+    <Entry>2482</Entry>
+    <Name>Zarena Cromwind</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14417.4" Y="517.034" Z="5.01315" Type="Flying" />
+    <Entry>144126</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14361.9" Y="372.226" Z="24.08856" />
+    <Entry>2844</Entry>
+    <Name>Hurklor</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14468.3" Y="424.603" Z="25.37273" />
+    <Entry>2849</Entry>
+    <Name>Qixdi Goodstitch</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14398.5" Y="406.925" Z="9.424352" Type="Flying" />
+    <Entry>15677</Entry>
+    <Name>Auctioneer Graves</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14359.1" Y="367.467" Z="24.10272" />
+    <Entry>2845</Entry>
+    <Name>Fargon Mortalak</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14380" Y="365.551" Z="23.94327" />
+    <Entry>2847</Entry>
+    <Name>Jansen Underwood</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14446.5" Y="448.414" Z="4.04236" />
+    <Entry>9858</Entry>
+    <Name>Auctioneer Kresky</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-14467.8" Y="468.374" Z="15.02287" Type="Flying" />
+    <Entry>2843</Entry>
+    <Name>Jutak</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10392" Y="-3256.97" Z="21.84172" Type="Flying" />
+    <Entry>980</Entry>
+    <Name>Grimnal</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10399.5" Y="-3270.43" Z="21.80791" Type="Flying" />
+    <Entry>981</Entry>
+    <Name>Hartash</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10406.9" Y="-3256.55" Z="22.03156" Type="Flying" />
+    <Entry>984</Entry>
+    <Name>Thralosh</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10407" Y="-3265.75" Z="21.94662" Type="Flying" />
+    <Entry>8176</Entry>
+    <Name>Gharash</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-320.57" Y="974.388" Z="54.27242" Type="Flying" />
+    <Entry>19452</Entry>
+    <Name>Quartermaster Drake</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Expansion01</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-233.347" Y="1025.39" Z="54.326" Type="Flying" />
+    <Entry>19436</Entry>
+    <Name>Supply Master Broog</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Expansion01</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="179.787" Y="2605.4" Z="87.28358" />
+    <Entry>22225</Entry>
+    <Name>Reagan Mancuso</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Horde</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Expansion01</ContinentId>
+  </Npc>
 </ArrayOfNpc>

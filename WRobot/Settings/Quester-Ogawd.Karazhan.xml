@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<QuesterSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProfileName>lvl58-62-Zone_Hellfire-i2ichardt.xml</ProfileName>
+  <BlackListWhereIAmDead>false</BlackListWhereIAmDead>
+  <SaveModifiedGeneralSettings>false</SaveModifiedGeneralSettings>
+  <SkipPickUpQuestAfterXSecondes>120</SkipPickUpQuestAfterXSecondes>
+  <ProfilesUserSettings />
+</QuesterSetting>

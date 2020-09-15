@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <wManagerSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <LastProductSelected>Grinder</LastProductSelected>
+  <LastProductSelected>Quester</LastProductSelected>
   <CustomClass>Custom profile.xml</CustomClass>
   <DetectEvadingMob>false</DetectEvadingMob>
   <FightInteractTargetMinDistance>45</FightInteractTargetMinDistance>
@@ -14,8 +14,8 @@
   <LootAndHarvestRangeQuickly>true</LootAndHarvestRangeQuickly>
   <LootInCombat>false</LootInCombat>
   <SkipNodesInWater>false</SkipNodesInWater>
-  <MaxUnitsNearMobs>2</MaxUnitsNearMobs>
-  <MaxUnitsNearObjects>2</MaxUnitsNearObjects>
+  <MaxUnitsNearMobs>1</MaxUnitsNearMobs>
+  <MaxUnitsNearObjects>1</MaxUnitsNearObjects>
   <SearchRadiusMobs>300</SearchRadiusMobs>
   <SearchRadiusObjects>300</SearchRadiusObjects>
   <MaxZDistanceAttack>150</MaxZDistanceAttack>
@@ -97,7 +97,12 @@
     <LaunchIfNoInMount>true</LaunchIfNoInMount>
     <StopMoveWhenLaunch>true</StopMoveWhenLaunch>
   </MyMacro4>
-  <PluginsSettings />
+  <PluginsSettings>
+    <PluginSetting>
+      <FileName>LootFilterWrobot.dll</FileName>
+      <Actif>false</Actif>
+    </PluginSetting>
+  </PluginsSettings>
   <AssignTalents>false</AssignTalents>
   <TrainNewSkills>true</TrainNewSkills>
   <CanAttackUnitsAlreadyInFight>false</CanAttackUnitsAlreadyInFight>
