@@ -25,7 +25,7 @@ RecountDB = {
 				},
 			},
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Blackrock Depths",
+			["LastInstanceName"] = "Wailing Caverns",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 396.6666564941406,
 		},

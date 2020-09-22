@@ -1,0 +1,14 @@
+
+AucAdvancedStatPurchasedData = {
+	["Version"] = "1.0",
+	["RealmData"] = {
+		["Sunstrider"] = {
+			["Alliance"] = {
+				["stats"] = {
+				},
+				["auctionData"] = {
+				},
+			},
+		},
+	},
+}

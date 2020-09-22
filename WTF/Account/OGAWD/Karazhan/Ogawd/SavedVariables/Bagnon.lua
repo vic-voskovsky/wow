@@ -29,6 +29,10 @@ BagnonSets = {
 	["showBagsAtMail"] = 1,
 	["showBagsAtBank"] = 1,
 	["bank"] = {
+		["y"] = 558.8335571289063,
+		["x"] = 1294.166259765625,
+		["parentScale"] = 0.6399999856948853,
+		["scale"] = 1,
 		["space"] = 1,
 		["bags"] = {
 			-1, -- [1]

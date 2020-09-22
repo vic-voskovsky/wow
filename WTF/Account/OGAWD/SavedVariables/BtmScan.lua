@@ -17,9 +17,9 @@ BtmScanData = {
 	["version"] = 115,
 	["refresh"] = 30,
 	["profile.Default"] = {
-		["itemconfig.list"] = {
-		},
 		["bid.list"] = {
+		},
+		["itemconfig.list"] = {
 		},
 	},
 	["factions"] = {

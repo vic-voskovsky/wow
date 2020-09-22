@@ -1,0 +1,21 @@
+
+AucAdvancedConfig = {
+	["profile.Default"] = {
+		["util.automagic.uierrormsg"] = 1,
+		["matcherlist"] = {
+			"Undercut", -- [1]
+		},
+	},
+}
+AucAdvancedData = {
+	["UtilSearchUI"] = {
+		["profile.Sunstrider-Alliance"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Sunstrider-Alliance"] = {
+		},
+	},
+	["Stats"] = {
+	},
+}

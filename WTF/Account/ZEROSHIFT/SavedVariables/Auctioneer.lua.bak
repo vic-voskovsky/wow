@@ -1,0 +1,87 @@
+
+AuctionConfig = {
+	["version"] = 40002,
+	["filters"] = {
+		["pct-maxless"] = 30,
+		["scan-class1"] = "on",
+		["finish-sound"] = "on",
+		["show-verbose"] = "on",
+		["pct-nocomp"] = 2,
+		["bid-limit"] = 1,
+		["scan-class8"] = "on",
+		["scan-class2"] = "on",
+		["scan-class11"] = "on",
+		["scan-class3"] = "on",
+		["show-stats"] = "on",
+		["show-average"] = "on",
+		["scan-class10"] = "on",
+		["finish"] = 0,
+		["embed"] = "off",
+		["protect-window"] = 1,
+		["also"] = "off",
+		["autofill"] = "on",
+		["show-embed-blankline"] = "off",
+		["askprice-whispers"] = "on",
+		["printframe"] = 1,
+		["last-auction-duration"] = 1440,
+		["show-median"] = "on",
+		["pct-bidmarkdown"] = 20,
+		["update-price"] = "off",
+		["scan-class6"] = "on",
+		["show-warning"] = "on",
+		["askprice"] = "on",
+		["scan-class4"] = "on",
+		["pct-undermkt"] = 20,
+		["askprice-vendor"] = "off",
+		["askprice-smart"] = "off",
+		["constants-warning"] = 2,
+		["pct-markup"] = 300,
+		["askprice-word2"] = "worth",
+		["askprice-party"] = "off",
+		["scan-class5"] = "on",
+		["auction-duration"] = 3,
+		["scan-class7"] = "on",
+		["askprice-trigger"] = "?",
+		["scan-class9"] = "on",
+		["show-suggest"] = "on",
+		["askprice-word1"] = "what",
+		["askprice-ad"] = "on",
+		["auction-click"] = "on",
+		["askprice-guild"] = "off",
+		["all"] = "on",
+		["pct-underlow"] = 5,
+		["warn-color"] = "on",
+	},
+}
+AuctioneerItemDB = {
+	["items"] = {
+	},
+	["version"] = 1,
+	["auctionItemSubClasses"] = {
+	},
+	["textures"] = {
+	},
+	["auctionItemClasses"] = {
+	},
+	["inventoryTypes"] = {
+	},
+}
+AuctioneerSnapshotDB = {
+	["sunstrider-alliance"] = {
+		["nextAuctionId"] = 1,
+		["version"] = 3,
+		["updates"] = {
+		},
+		["auctions"] = {
+		},
+		["ahKey"] = "sunstrider-alliance",
+		["auctionIdsByItemKey"] = {
+		},
+	},
+}
+AuctioneerHistoryDB = {
+}
+AuctioneerFixedPriceDB = {
+}
+AuctioneerTransactionDB = {
+}

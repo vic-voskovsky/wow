@@ -66,10 +66,10 @@ AucAdvancedConfig = {
 		["util.appraiser.item.2581.duration"] = 2880,
 		["util.appraiser.item.7787.numberonly"] = false,
 		["util.appraiser.item.4636.bulk"] = false,
-		["util.appraiser.item.6291.number"] = -1,
+		["util.appraiser.item.2581.match"] = true,
 		["util.appraiser.item.4700.match"] = true,
 		["util.appraiser.item.15213:677.number"] = -1,
-		["util.appraiser.item.6522.duration"] = 2880,
+		["util.appraiser.item.6291.number"] = -1,
 		["util.automagic.uierrormsg"] = 1,
 		["util.appraiser.item.15213:677.match"] = true,
 		["util.appraiser.item.6522.number"] = -1,
@@ -80,7 +80,7 @@ AucAdvancedConfig = {
 		["util.appraiser.item.6289.ignore"] = false,
 		["util.appraiser.item.10329.ignore"] = false,
 		["util.appraiser.item.863:1018.bulk"] = false,
-		["util.appraiser.item.2581.match"] = true,
+		["util.appraiser.item.6522.duration"] = 2880,
 		["util.appraiser.item.6522.stack"] = 5,
 		["util.appraiser.item.7787.ignore"] = false,
 		["util.appraiser.item.15213:677.stack"] = 1,
@@ -96,8 +96,8 @@ AucAdvancedConfig = {
 			"TOPLEFT", -- [1]
 			nil, -- [2]
 			"TOPLEFT", -- [3]
-			0, -- [4]
-			-103.1666946411133, -- [5]
+			0.8333395719528198, -- [4]
+			-114.8333740234375, -- [5]
 		},
 		["match.undercut.value"] = 1,
 	},

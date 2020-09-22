@@ -1,0 +1,10 @@
+
+AucAdvancedStatSimpleData = {
+	["Version"] = "1.0",
+	["RealmData"] = {
+		["Sunstrider"] = {
+			["Sunstrider-Alliance"] = {
+			},
+		},
+	},
+}

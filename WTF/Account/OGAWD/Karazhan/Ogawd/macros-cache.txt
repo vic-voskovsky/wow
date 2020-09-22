@@ -1,16 +1,16 @@
-MACRO 16777234 " " INV_Misc_QuestionMark
-#showtooltip Charge
-/script SetRaidTarget("target",8)
-/cast Shoot
-/cast Charge
-/cast Hamstring
- 
-END
 MACRO 16777223 " " INV_Misc_QuestionMark
 #show [combat] Intercept; Charge
 /cast [stance:1/2,combat] Berserker Stance; [stance:3,combat] Intercept; [stance:2/3,nocombat] Battle Stance; [stance:1,nocombat] !Charge
 /cast [equipped:Shields] Defensive Stance
 /script SetRaidTarget("target",8)
+END
+MACRO 16777234 " " INV_Misc_QuestionMark
+#showtooltip Charge
+/script SetRaidTarget("target",8)
+/cast Charge
+/cast Throw
+/cast Hamstring
+ 
 END
 MACRO 16777228 " ALL" INV_Misc_QuestionMark
 #showtooltip
@@ -73,19 +73,19 @@ MACRO 16777218 "Buff" Ability_Creature_Cursed_02
 /cast Bloodrage
 /cast Battle Shout
 END
-MACRO 16777230 "DEF" INV_Misc_QuestionMark
-#showtooltip
-/startattack
-/cast [nomod] Shield Block
-/cast [mod:shift] Shield Bash
-/cast [mod:ctrl] Shield Wall
-END
 MACRO 16777229 "DEF" INV_Misc_QuestionMark
 #showtooltip
 /startattack
 /cast [nomod] Revenge
 /cast [mod:shift] Taunt
 /cast [mod:ctrl] Disarm
+END
+MACRO 16777230 "DEF" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast [nomod] Shield Block
+/cast [mod:shift] Shield Bash
+/cast [mod:ctrl] Shield Wall
 END
 MACRO 16777236 "DEV" INV_Misc_QuestionMark
 #showtooltip

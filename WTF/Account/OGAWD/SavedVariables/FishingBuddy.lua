@@ -20,8 +20,8 @@ FishingBuddy_Info = {
 		[2002] = 0,
 		[3001] = 0,
 		[3002] = 0,
-		[2001] = 0,
 		[1001] = 0,
+		[2001] = 0,
 		[4001] = 0,
 		[5001] = 0,
 	},
@@ -37,8 +37,8 @@ FishingBuddy_Info = {
 		[3001] = {
 			[13760] = 2,
 			[13757] = 2,
-			[6358] = 3,
 			[13758] = 10,
+			[6358] = 3,
 			[8365] = 3,
 			[13759] = 3,
 			[6149] = 1,
@@ -48,14 +48,14 @@ FishingBuddy_Info = {
 			[13758] = 3,
 			[16967] = 1,
 		},
-		[2001] = {
-			[4603] = 1,
-		},
 		[1001] = {
-			[6362] = 14,
-			[6358] = 2,
 			[6359] = 2,
 			[4603] = 3,
+			[6362] = 14,
+			[6358] = 2,
+		},
+		[2001] = {
+			[4603] = 1,
 		},
 		[4001] = {
 			[16969] = 1,
@@ -157,9 +157,9 @@ FishingBuddy_Info = {
 			["skill"] = 225,
 			["quality"] = 1,
 		},
-		[16970] = {
-			["name"] = "Misty Reed Mahi Mahi",
-			["texture"] = "Interface\\Icons\\INV_Misc_Fish_21",
+		[13759] = {
+			["name"] = "Raw Nightfin Snapper",
+			["texture"] = "Interface\\Icons\\INV_Misc_Fish_23",
 			["mods"] = 5,
 			["level"] = 230,
 			["skill"] = 225,
@@ -173,19 +173,19 @@ FishingBuddy_Info = {
 			["skill"] = 223,
 			["quality"] = 1,
 		},
-		[13759] = {
-			["name"] = "Raw Nightfin Snapper",
-			["texture"] = "Interface\\Icons\\INV_Misc_Fish_23",
+		[16970] = {
+			["name"] = "Misty Reed Mahi Mahi",
+			["texture"] = "Interface\\Icons\\INV_Misc_Fish_21",
 			["mods"] = 5,
 			["level"] = 230,
 			["skill"] = 225,
 			["quality"] = 1,
 		},
-		[16967] = {
-			["name"] = "Feralas Ahi",
-			["texture"] = "Interface\\Icons\\INV_Misc_MonsterHead_02",
-			["mods"] = 80,
-			["level"] = 305,
+		[8365] = {
+			["name"] = "Raw Mithril Head Trout",
+			["texture"] = "Interface\\Icons\\INV_Misc_Fish_02",
+			["mods"] = 5,
+			["level"] = 230,
 			["skill"] = 225,
 			["quality"] = 1,
 		},
@@ -197,11 +197,11 @@ FishingBuddy_Info = {
 			["skill"] = 225,
 			["quality"] = 1,
 		},
-		[8365] = {
-			["name"] = "Raw Mithril Head Trout",
-			["texture"] = "Interface\\Icons\\INV_Misc_Fish_02",
-			["mods"] = 5,
-			["level"] = 230,
+		[16967] = {
+			["name"] = "Feralas Ahi",
+			["texture"] = "Interface\\Icons\\INV_Misc_MonsterHead_02",
+			["mods"] = 80,
+			["level"] = 305,
 			["skill"] = 225,
 			["quality"] = 1,
 		},
