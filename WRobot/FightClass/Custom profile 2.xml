@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FightClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FightClassGeneralSettings>
+    <FightClassName>Fight config name</FightClassName>
+    <FramePerSecond>60</FramePerSecond>
+  </FightClassGeneralSettings>
+  <FightClassSpells>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>MeInCombat</ContionType>
+          <Param xsi:type="FightClassConditionBool">
+            <Value>true</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Buff</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Battle Shout</Name>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>10</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Battle Shout</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Battle Shout</SpellName>
+      <Priority>21</Priority>
+      <IsBuff>true</IsBuff>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CheckIfView>false</CheckIfView>
+      <Timer>120000</Timer>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>TargetDistance</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>SmallerOrEqual</Type>
+            <Value>8</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetBuff</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Demoralizing Shout</Name>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>10</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetHealthPercent</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>25</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Demoralizing Shout</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Demoralizing Shout</SpellName>
+      <Priority>20</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CheckSpellDistance>false</CheckSpellDistance>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsActiveByDefault>true</AddToSettingsActiveByDefault>
+      <AddToSettingsName>Use Demoralizing Shout</AddToSettingsName>
+      <AOESpell>true</AOESpell>
+      <AOESpellMePos>true</AOESpellMePos>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>SmallerOrEqual</Type>
+            <Value>20</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Bloodrage</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Bloodrage</SpellName>
+      <Priority>19</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CheckIfView>false</CheckIfView>
+      <Timer>60000</Timer>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>TargetHealthPercent</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>SmallerOrEqual</Type>
+            <Value>30</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>10</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Hamstring</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetBuff</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Hamstring</Name>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Hamstring</SpellName>
+      <Priority>18</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsActiveByDefault>true</AddToSettingsActiveByDefault>
+      <AddToSettingsName>Use Hamstring</AddToSettingsName>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>UnitAttackPlayerNear</ContionType>
+          <Param xsi:type="FightClassConditionUnitNear">
+            <Number>3</Number>
+            <Type>BiggerOrEqual</Type>
+            <Radius>5</Radius>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Retaliation</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Retaliation</SpellName>
+      <Priority>17</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CheckIfView>false</CheckIfView>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsActiveByDefault>true</AddToSettingsActiveByDefault>
+      <AddToSettingsName>Use Retaliation</AddToSettingsName>
+      <Timer>1800000</Timer>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>30</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>UnitAttackPlayerNear</ContionType>
+          <Param xsi:type="FightClassConditionUnitNear">
+            <Number>2</Number>
+            <Type>BiggerOrEqual</Type>
+            <Radius>5</Radius>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Sweeping Strikes</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Sweeping Strikes</SpellName>
+      <Priority>16</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <Timer>30000</Timer>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>UnitAttackPlayerNear</ContionType>
+          <Param xsi:type="FightClassConditionUnitNear">
+            <Number>2</Number>
+            <Type>BiggerOrEqual</Type>
+            <Radius>5</Radius>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>UseInventoryItem( 13 )</SpellName>
+      <Priority>15</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsName>Use First Trinket</AddToSettingsName>
+      <Timer>90000</Timer>
+      <NotSpellIsLuaScript>true</NotSpellIsLuaScript>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>UnitAttackPlayerNear</ContionType>
+          <Param xsi:type="FightClassConditionUnitNear">
+            <Number>2</Number>
+            <Type>BiggerOrEqual</Type>
+            <Radius>5</Radius>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>UseInventoryItem( 14 )</SpellName>
+      <Priority>14</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsName>Use Second Trinket</AddToSettingsName>
+      <Timer>90000</Timer>
+      <NotSpellIsLuaScript>true</NotSpellIsLuaScript>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>Buff</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Sweeping Strikes</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>20</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>UnitAttackPlayerNear</ContionType>
+          <Param xsi:type="FightClassConditionUnitNear">
+            <Number>2</Number>
+            <Type>BiggerOrEqual</Type>
+            <Radius>5</Radius>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Cleave</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Cleave</SpellName>
+      <Priority>13</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>60</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Heroic Strike</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Heroic Strike</SpellName>
+      <Priority>12</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Thunder Clap</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>20</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetBuff</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Thunder Clap</Name>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetHealthPercent</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>25</Value>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Thunder Clap</SpellName>
+      <Priority>11</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsActiveByDefault>true</AddToSettingsActiveByDefault>
+      <AddToSettingsName>Use Thunder Clap</AddToSettingsName>
+      <Timer>4000</Timer>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>IsSpellUsable</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Victory Rush</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Victory Rush</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Victory Rush</SpellName>
+      <Priority>10</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>5</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>IsSpellUsable</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Overpower</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Overpower</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Overpower</SpellName>
+      <Priority>9</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <Timer>5000</Timer>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Mortal Strike</SpellName>
+      <Priority>8</Priority>
+      <Timer>6000</Timer>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Netherweave Bandage</SpellName>
+      <Priority>7</Priority>
+      <NotSpellIsItemId>true</NotSpellIsItemId>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>30</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Bloodthirst</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Bloodthirst</SpellName>
+      <Priority>6</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <Timer>6000</Timer>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Devastate</SpellName>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>MeInCombat</ContionType>
+          <Param xsi:type="FightClassConditionBool" />
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetDistance</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>8</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>TargetDistance</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>SmallerOrEqual</Type>
+            <Value>25</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Charge</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Charge</SpellName>
+      <Priority>4</Priority>
+      <CombatOnly>false</CombatOnly>
+      <CheckIfKnow>false</CheckIfKnow>
+      <AddToSettings>true</AddToSettings>
+      <AddToSettingsName>Use Charge</AddToSettingsName>
+      <Timer>15000</Timer>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions>
+        <FightClassCondition>
+          <ContionType>TargetHealthPercent</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>SmallerOrEqual</Type>
+            <Value>20</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>Rage</ContionType>
+          <Param xsi:type="FightClassConditionNumber">
+            <Type>BiggerOrEqual</Type>
+            <Value>15</Value>
+          </Param>
+        </FightClassCondition>
+        <FightClassCondition>
+          <ContionType>KnowSpell</ContionType>
+          <Param xsi:type="FightClassConditionStringBool">
+            <Name>Execute</Name>
+            <Need>true</Need>
+          </Param>
+        </FightClassCondition>
+      </FightClassConditions>
+      <SpellName>Execute</SpellName>
+      <Priority>3</Priority>
+      <CheckIfKnow>false</CheckIfKnow>
+      <CastOn>target</CastOn>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Revenge</SpellName>
+      <Priority>2</Priority>
+    </FightClassSpell>
+    <FightClassSpell>
+      <FightClassConditions />
+      <SpellName>Concussion Blow</SpellName>
+      <Priority>1</Priority>
+    </FightClassSpell>
+  </FightClassSpells>
+</FightClass>

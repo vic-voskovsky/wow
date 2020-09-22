@@ -140,4 +140,54 @@
     <Name>Emerald Sanctuary, Felwood</Name>
     <Active>true</Active>
   </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>1</SlotIndex>
+    <Position X="-8840.56" Y="489.7" Z="109.61" />
+    <CharacterAvailable>
+      <string>ZeroshiftSunstrider</string>
+    </CharacterAvailable>
+    <ContinentId>0</ContinentId>
+    <Name>Stormwind, Elwynn</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>3</SlotIndex>
+    <Position X="-9429.1" Y="-2231.4" Z="68.65" />
+    <CharacterAvailable>
+      <string>ZeroshiftSunstrider</string>
+    </CharacterAvailable>
+    <ContinentId>0</ContinentId>
+    <Name>Lakeshire, Redridge</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>5</SlotIndex>
+    <Position X="-10513.8" Y="-1258.79" Z="41.43116" />
+    <CharacterAvailable>
+      <string>ZeroshiftSunstrider</string>
+    </CharacterAvailable>
+    <ContinentId>0</ContinentId>
+    <Name>Darkshire, Duskwood</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>6</SlotIndex>
+    <Position X="-14271.77" Y="299.87" Z="31.09" />
+    <CharacterAvailable>
+      <string>ZeroshiftSunstrider</string>
+    </CharacterAvailable>
+    <ContinentId>0</ContinentId>
+    <Name>Booty Bay, Stranglethorn</Name>
+    <Active>true</Active>
+  </TaxiNode>
+  <TaxiNode>
+    <SlotIndex>2</SlotIndex>
+    <Position X="-10629.29" Y="1036.95" Z="34.02" />
+    <CharacterAvailable>
+      <string>ZeroshiftSunstrider</string>
+    </CharacterAvailable>
+    <ContinentId>0</ContinentId>
+    <Name>Sentinel Hill, Westfall</Name>
+    <Active>true</Active>
+  </TaxiNode>
 </ArrayOfTaxiNode>

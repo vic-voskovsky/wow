@@ -418,4 +418,510 @@
     <VendorItemClass>Food</VendorItemClass>
     <ContinentId>Expansion01</ContinentId>
   </Npc>
+  <Npc>
+    <Position X="-9457.64" Y="99.6884" Z="58.34487" />
+    <Entry>74</Entry>
+    <Name>Kurran Steele</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9464.87" Y="93.9896" Z="58.34344" />
+    <Entry>54</Entry>
+    <Name>Corina Steele</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9462.29" Y="87.8151" Z="58.33854" />
+    <Entry>2046</Entry>
+    <Name>Andrew Krighton</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9455.99" Y="45.8229" Z="56.4395" Type="Flying" />
+    <Entry>142075</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8824.28" Y="665.711" Z="97.38426" />
+    <Entry>8670</Entry>
+    <Name>Auctioneer Chilton</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8821.53" Y="659.886" Z="97.38123" />
+    <Entry>8719</Entry>
+    <Name>Auctioneer Fitch</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8790.42" Y="607.348" Z="96.77373" />
+    <Entry>1289</Entry>
+    <Name>Gunther Weller</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8787.69" Y="609.631" Z="96.77339" />
+    <Entry>1287</Entry>
+    <Name>Marda Weller</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8876.98" Y="652.007" Z="95.9927" Type="Flying" />
+    <Entry>144131</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8773.68" Y="709.888" Z="99.53465" />
+    <Entry>1299</Entry>
+    <Name>Lisbeth Schneider</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8777.41" Y="646.162" Z="97.22317" />
+    <Entry>1295</Entry>
+    <Name>Lara Moore</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8774.03" Y="647.306" Z="97.22343" />
+    <Entry>1294</Entry>
+    <Name>Aldric Moore</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8791.82" Y="702.675" Z="102.2844" />
+    <Entry>1297</Entry>
+    <Name>Lina Stover</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8795.48" Y="709.113" Z="102.2844" />
+    <Entry>1298</Entry>
+    <Name>Frederick Stover</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8814.55" Y="660.315" Z="96.60033" />
+    <Entry>15659</Entry>
+    <Name>Auctioneer Jaxon</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8781.1" Y="645.286" Z="97.22392" />
+    <Entry>1291</Entry>
+    <Name>Carla Granger</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8662.6" Y="793.156" Z="101.7214" />
+    <Entry>1349</Entry>
+    <Name>Agustus Moulaine</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8666.89" Y="798.411" Z="101.7193" />
+    <Entry>1350</Entry>
+    <Name>Theresa Moulaine</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8797" Y="1083.48" Z="90.208" Type="Flying" />
+    <Entry>142075</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8863" Y="805.137" Z="97.422" />
+    <Entry>1312</Entry>
+    <Name>Ardwyn Cailen</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-8863.45" Y="801.819" Z="97.4228" />
+    <Entry>1315</Entry>
+    <Name>Allan Hafgan</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9234.49" Y="-2158.75" Z="64.35905" />
+    <Entry>789</Entry>
+    <Name>Kimberly Hiett</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9248.41" Y="-2144.23" Z="63.9334" Type="Flying" />
+    <Entry>142093</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9247.4" Y="-2241.15" Z="63.93391" Type="Flying" />
+    <Entry>956</Entry>
+    <Name>Dorin Songblade</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-9247.73" Y="-2234.38" Z="63.93376" Type="Flying" />
+    <Entry>793</Entry>
+    <Name>Kara Adams</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10644.5" Y="1158.04" Z="33.1382" Type="Flying" />
+    <Entry>153716</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10517.2" Y="-1138.53" Z="26.1772" Type="Flying" />
+    <Entry>228</Entry>
+    <Name>Avette Fellwood</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10590.5" Y="-1155.93" Z="30.0597" />
+    <Entry>226</Entry>
+    <Name>Morg Gnarltree</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10597.16" Y="-1154.417" Z="30.0597" />
+    <Entry>225</Entry>
+    <Name>Gavin Gnarltree</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10546.5" Y="-1157.32" Z="27.7834" Type="Flying" />
+    <Entry>142089</Entry>
+    <Name>Mailbox</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Mailbox</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9872.6" Y="2341.73" Z="1321.589" />
+    <Entry>8669</Entry>
+    <Name>Auctioneer Tolon</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9911.11" Y="2311.39" Z="1330.788" Type="Flying" />
+    <Entry>4164</Entry>
+    <Name>Cylania</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9924.3" Y="2316.45" Z="1330.789" Type="Flying" />
+    <Entry>4203</Entry>
+    <Name>Ariyell Skyshadow</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9860.31" Y="2331.85" Z="1331.9" Type="Flying" />
+    <Entry>15678</Entry>
+    <Name>Auctioneer Silva'las</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9856.97" Y="2343.12" Z="1321.59" />
+    <Entry>8723</Entry>
+    <Name>Auctioneer Golothas</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9868.17" Y="2350.06" Z="1331.9" Type="Flying" />
+    <Entry>15679</Entry>
+    <Name>Auctioneer Cazarez</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>AuctionHouse</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9809.77" Y="2248.41" Z="1333.001" />
+    <Entry>4233</Entry>
+    <Name>Mythidan</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9775.44" Y="2275.06" Z="1339.624" />
+    <Entry>4235</Entry>
+    <Name>Turian</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9813.36" Y="2250.5" Z="1343.31" />
+    <Entry>4231</Entry>
+    <Name>Kieran</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9821.4" Y="2258.95" Z="1333" />
+    <Entry>4232</Entry>
+    <Name>Glorandiir</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="9816.68" Y="2246.61" Z="1333.001" />
+    <Entry>4171</Entry>
+    <Name>Merelyssa</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="-10658.5" Y="996.851" Z="32.87434" Type="Flying" />
+    <Entry>1668</Entry>
+    <Name>William MacGregor</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Azeroth</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="8030.57" Y="-2687.78" Z="515.0602" Type="Flying" />
+    <Entry>12023</Entry>
+    <Name>Kharedon</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="7985.27" Y="-2581.48" Z="493.0411" Type="Flying" />
+    <Entry>4184</Entry>
+    <Name>Geenia Sunshadow</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="7834.28" Y="-2612.63" Z="489.3011" Type="Flying" />
+    <Entry>12029</Entry>
+    <Name>Narianna</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
+  <Npc>
+    <Position X="7840.32" Y="-2562.68" Z="489.2859" Type="Flying" />
+    <Entry>12024</Entry>
+    <Name>Meliri</Name>
+    <GossipOption>-1</GossipOption>
+    <Active>true</Active>
+    <Faction>Alliance</Faction>
+    <Type>Repair</Type>
+    <VendorItemClass>Food</VendorItemClass>
+    <ContinentId>Kalimdor</ContinentId>
+  </Npc>
 </ArrayOfNpc>

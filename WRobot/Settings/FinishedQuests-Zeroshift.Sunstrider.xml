@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FinishedQuestsSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FinishedQuest>
+    <int>6281</int>
+    <int>6285</int>
+    <int>22</int>
+    <int>64</int>
+    <int>151</int>
+    <int>272</int>
+    <int>1274</int>
+    <int>1241</int>
+    <int>1242</int>
+    <int>1243</int>
+    <int>95</int>
+    <int>230</int>
+    <int>1244</int>
+    <int>262</int>
+    <int>265</int>
+    <int>266</int>
+    <int>453</int>
+    <int>268</int>
+    <int>1245</int>
+    <int>1246</int>
+    <int>14</int>
+    <int>65</int>
+  </FinishedQuest>
+</FinishedQuestsSettings>
